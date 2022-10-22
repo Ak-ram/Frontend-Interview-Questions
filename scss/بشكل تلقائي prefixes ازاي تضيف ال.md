@@ -1,8 +1,8 @@
 عشان نعمل autoprefixer فاحنا محتاجين نستخدم:
-- ال variables
-- ال mixin@ و ال include@
-- ال each@
-- ال Interpolation
+- ال `variables`
+- ال `mixin@` و ال `include@`
+- ال `each@`
+- ال `Interpolation`
 
 
 ----
@@ -10,7 +10,26 @@
 ```
 @mixin prefix($propertyName, $propertyValue, $prefixes) {}
 ```
-لاحظ هنا ان ال property$ و ال value$ عبارة عن متغيرات بتخزن جواها قيمة واحده بس بينما ال prefixes$ عبارة عن متغير بنخزن جواه مجموعة من القيم (list) 
+لاحظ هنا ان ال `property$` و ال `value$` عبارة عن متغيرات بتخزن جواها قيمة واحده بس بينما ال `prefixes$` عبارة عن متغير بنخزن جواه مجموعة من القيم ( list of values ) بالشكل دا :
+
+
+
+```
+$propertyName: transform // قيمة واحده
+$propertyValue: rotate(12deg) // قيمة واحده
+$prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بينهم بمسافة
+```
+
+
+هنيجي بقا جوا ال `mixin@` دي و نبدأ نلوب علي ال `prefixes$` باستخدام ال `each@` 
+
+
+
+
+
+
+
+
 
 ```
 @mixin prefix($propertyName, $propertyValue, $prefixes) {
