@@ -1,13 +1,18 @@
+عشان نعمل autoprefixer فاحنا محتاجين نستخدم:
+- ال variables
+- ال mixin@ و ال include@
+- ال each@
+- ال Interpolation
+
+
 
 ```
-$known-prefixes: webkit, moz, o, ms;
 @mixin prefix($property, $value, $prefixes) {
   @each $prefix in $prefixes {
-    -#{prefix}-#{property}: $value;
+    -#{$prefix}-#{$property}: $value;
   }
-  -#{property}: $value;
+  #{$property}: $value;
 }
-
 ```
 
 
@@ -23,13 +28,12 @@ CSS Output will be
 
 ```
 .someClass {
-  -prefix-property: rotate(15deg);
-  -prefix-property: rotate(15deg);
-  -prefix-property: rotate(15deg);
-  -prefix-property: rotate(15deg);
-  -property: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
-
 ```
 
 
