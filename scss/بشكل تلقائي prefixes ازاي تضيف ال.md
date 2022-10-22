@@ -12,8 +12,6 @@ $known-prefixes: webkit, moz, o, ms;
 
 
 
-
-
 ```
 .someClass{
 @include prefix(transform, rotate(15deg), webkit ms o moz);
