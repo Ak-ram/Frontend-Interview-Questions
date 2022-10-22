@@ -5,13 +5,19 @@
 - ال Interpolation
 
 
+----
+اول حاجة احنا هنعمل mixin بتستقبل ال css property و ال value بتاعتها و كمان ال prefixes الي عايزين نضيفها لل property دي بالشكل دا 
+```
+@mixin prefix($propertyName, $propertyValue, $prefixes) {}
+```
+لاحظ هنا ان ال property$ و ال value$ عبارة عن متغيرات بتخزن جواها قيمة واحده بس بينما ال prefixes$ عبارة عن متغير بنخزن جواه مجموعة من القيم (list) 
 
 ```
-@mixin prefix($property, $value, $prefixes) {
+@mixin prefix($propertyName, $propertyValue, $prefixes) {
   @each $prefix in $prefixes {
-    -#{$prefix}-#{$property}: $value;
+    -#{$prefix}-#{$propertyName}: $propertyValue;
   }
-  #{$property}: $value;
+  #{$propertyName}: $propertyValue;
 }
 ```
 
