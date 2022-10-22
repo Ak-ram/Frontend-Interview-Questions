@@ -3,16 +3,23 @@
 - ال `mixin@` و ال `include@`
 - ال `each@`
 - ال `Interpolation`
+---
 
 
-----
+![sass autoprefixer](https://user-images.githubusercontent.com/69124951/197356384-4337f855-a95d-4ff9-9f5c-4663dde74484.png)
+
+
+
+
+
+
+
+<!-- 
 اول حاجة احنا هنعمل mixin بتستقبل ال css property و ال value بتاعتها و كمان ال prefixes الي عايزين نضيفها لل property دي بالشكل دا 
 ```
 @mixin prefix($propertyName, $propertyValue, $prefixes) {}
-```
+``` -->
 لاحظ هنا ان ال `property$` و ال `value$` عبارة عن متغيرات بتخزن جواها قيمة واحده بس بينما ال `prefixes$` عبارة عن متغير بنخزن جواه مجموعة من القيم ( list of values ) بالشكل دا :
-
-
 
 ```
 $propertyName: transform // قيمة واحده
@@ -21,8 +28,7 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
 ```
 
 
-هنيجي بقا جوا ال `mixin@` دي و نبدأ نلوب علي ال `prefixes$` باستخدام ال `each@` 
-
+<!-- هنيجي بقا جوا ال `mixin@` دي و نبدأ نلوب علي ال `prefixes$` باستخدام ال `each@` 
 ```
 @mixin prefix($propertyName, $propertyValue, $prefixes) {
   @each $prefix in $prefixes {}
@@ -59,7 +65,7 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
 ```
 
 --- 
-
+ -->
 
 Example: 
 
