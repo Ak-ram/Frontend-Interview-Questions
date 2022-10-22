@@ -21,7 +21,7 @@ $value: rotate(12deg) // قيمة واحده
 $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بينهم بمسافة
 ```
 
-**Example:**
+> **Example:**
 
 ##### Style.scss file:
 ```
