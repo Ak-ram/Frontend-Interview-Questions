@@ -1,5 +1,5 @@
 # ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟ 
-عشان نعمل autoprefixer فاحنا محتاجين نستخدم:
+عشان نعمل **sass autoprefixer** فاحنا محتاجين نستخدم:
 - ال `variables`
 - ال `mixin@` و ال `include@`
 - ال `each@`
@@ -21,9 +21,9 @@ $value: rotate(12deg) // قيمة واحده
 $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بينهم بمسافة
 ```
 
-Example: 
+**Example:**
 
-In Style.scss file:
+##### Style.scss file:
 ```
 @mixin prefix($property, $value, $prefixes) {
   @each $prefix in $prefixes {
@@ -39,7 +39,7 @@ In Style.scss file:
 
 
 
-CSS Output will be:
+##### Style.css file [ CSS Output will be ]
 
 ```
 .someClass {
