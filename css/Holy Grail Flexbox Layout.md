@@ -10,6 +10,7 @@
 
 
 # الاجابة:
+## اولا : كود ال HTML
 اول حاجة هنعملها هو container لل Layout بتاعنا `<"div class="container>`
 و بعدين هنقسم ال container دا ل 3 صفوف بالشكل دا 👇 
 
@@ -35,5 +36,30 @@
     <main class="content">Content</main>
     <nav class="sidenav">Nav</nav>
     <aside class="ads">Aside</aside>
-  </div>
+</div>
 ```
+
+
+كدا الشكل النهائي لكود ال HTML هو 
+```
+ <div class="container">
+  <header class="header">Header</header>
+  <div class="content-body">
+    <main class="content">Content</main>
+    <nav class="sidenav">Nav</nav>
+    <aside class="ads">Aside</aside>
+  </div>
+  <footer class="footer">Footer</footer>
+ </div>
+```
+
+
+
+
+
+
+
+
+
+
+
