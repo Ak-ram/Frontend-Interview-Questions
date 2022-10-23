@@ -4,9 +4,9 @@
 <br/>
 
 ## الاجابة:
-| min-height | height | min-width | width | flex-basis | item property        |
-|------------|--------|-----------|-------|------------|----------------------|
-| ❌          | ✔      | ❌         | ✔     | ✔          | Shrinking            |
-| ✔          | ✔      | ✔         | ✔     | ❌          | run on non flex-item |
-| ✔          | ✔      | ✔         | ✔     | Based On   | positioned items     |
-| ❌          | ❌      | ❌         | ❌     | ✔          | flex-shorthand       |
+| item property        | flex-basis | width | min-width | height | min-height |
+|----------------------|------------|-------|-----------|--------|------------|
+| Shrinking            | ✔          | ✔     | ❌         | ✔      | ❌          |
+| run on non flex-item | ❌          | ✔     | ✔         | ✔      | ✔          |
+| positioned items     | Based On   | ✔     | ✔         | ✔      | ✔          |
+| flex-shorthand       | ✔          | ❌     | ❌         | ❌      | ❌          |
