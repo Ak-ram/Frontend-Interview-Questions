@@ -75,7 +75,7 @@
 ال header و ال footer هديلهم height و ليكن 50px و عايز ال heigth دا يكون ثابت مبيتغيرش -- يعني مش بيحصله grow و لا shrink -- فهحطله `flex-grow: 0` و `flex-shrink: 0`   
 
 ```
- .header,.footer {
+ .header, .footer {
   flex: 0 0 50px;
   background: #34495E;;
  }
@@ -84,3 +84,16 @@
 
 
 ### 3- تنسيق ال div.content-body
+
+
+عايزين بقا ال div.content-body يأخذ ال height المتبقي من ال height بتاع ال container الي هو 100vh فهقول ان ال height بتاعه 
+هيساوي `100vh - (height: height of footer + height of header)` الي هو `height: 100vh - (50 * 2)` او ممكن بدل اقول `flex-grow: 1` 
+
+
+
+
+
+
+
+
+
