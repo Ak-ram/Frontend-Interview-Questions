@@ -60,12 +60,11 @@
 
 ال header و ال footer هديلهم height و ليكن 50px و عايز ال heigth دا يكون ثابت مبيتغيرش -- يعني مش بيحصله grow و لا shrink -- فهحطله `flex-grow: 0` و `flex-shrink: 0`   
 
-```
- .header, .footer {
-  flex: 0 0 50px;
-  background: #34495E;;
- }
-```
+<div align=center>
+<img width="50%" src="https://user-images.githubusercontent.com/69124951/197394995-19bcd63b-d354-4efc-b97f-ca957fa09d68.png" />  
+</div>
+
+
 هنا احنا استخدمنا ال flex property الي بتعتبر shorthand ل `flex: flex-grow flex-shrink flex-basis` 
 
 
@@ -79,34 +78,27 @@
 ثاني حاجه هنعملها هي اننا نديله `display:flex`  و دا عشان اخلي ال `Nav` و `content` و `aside` يكونوا جنب بعض 
 
 
-```
- .content-body {
-  flex-grow: 1; /* equla to: height: calc(100vh - 100px); */
-  display: flex;
-  flex-direction: row;
- } 
-```
+
+<div align=center>
+<img width="60%" src="https://user-images.githubusercontent.com/69124951/197395066-357ad337-5e2d-4566-b2b3-61fd44c84724.png" />  
+</div>
+
 
 ال `Nav` و ال `aside`  هديلهم width وليكن `100px` و عايز ال width دا يكون ثابت فهيديلهم `flex-shrink: 0` و `flex-grow: 0`
 
-```
-.content-body .sidenav, .content-body .ads{
-  flex: 0 0 100px;
-  overflow: auto;
-}
-```
+
+<div align=center>
+<img width="60%" src="https://user-images.githubusercontent.com/69124951/197395189-7f69b14c-4f4b-4985-9c89-08fcca155b9c.png" />  
+</div>
 
 و عايز ال div.content بس هو الي يحصله grow و دا عشان يملا ال width المتبفي 
 - فهديله flex-grow: 1
 - هقول ان ال width بتاعه هيساوي `100vh - (width: width of nav + width of aside)` الي هو `width: 100% - (100px * 2)`
 
-```
- .content-body .content {
-  flex-grow: 1; /* width: calc(100% - 200px); */
-  overflow: auto;
-  background: #1ABC9C;
- } 
-```
+
+<div align=center>
+<img width="60%" src="https://user-images.githubusercontent.com/69124951/197395128-6d838168-71bc-45ba-8292-b05377a8d250.png" />  
+</div>
 
 بس كدا #
 تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
