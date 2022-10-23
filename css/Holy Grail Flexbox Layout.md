@@ -86,8 +86,9 @@
 ### 3- تنسيق ال div.content-body
 
 
-عايزين بقا ال div.content-body يأخذ ال height المتبقي من ال height بتاع ال container الي هو 100vh فهقول ان ال height بتاعه 
-هيساوي `100vh - (height: height of footer + height of header)` الي هو `height: 100vh - (50 * 2)` او ممكن بدل اقول `flex-grow: 1` 
+عايزين بقا ال div.content-body يأخذ ال height المتبقي من ال height بتاع ال container الي هو 100vh فعندي خيارين: 
+- هقول ان ال height بتاعه هيساوي `100vh - (height: height of footer + height of header)` الي هو `height: 100vh - (50 * 2)`
+- او اديله `flex-grow: 1` 
 
 
 
