@@ -90,9 +90,26 @@
 - هقول ان ال height بتاعه هيساوي `100vh - (height: height of footer + height of header)` الي هو `height: 100vh - (50 * 2)`
 - او اديله `flex-grow: 1` 
 
-
-
 ثاني حاجه هنعملها هي اننا نديله `display:flex`  و دا عشان اخلي ال `Nav` و `content` و `aside` يكونوا جنب بعض 
+
+
+```
+ .content-body {
+  flex-grow: 1; /* equla to: height: calc(100vh - 100px); */
+  display: flex;
+  flex-direction: row;
+ } 
+```
+
+ال `Nav` و ال `aside`  هديلهم width وليكن `100px` و عايز ال width دا يكون ثابت فهيديلهم `flex-shrink: 0` و `flex-grow: 0`
+
+```
+.content-body .sidenav, .content-body .ads{
+  flex: 0 0 100px;
+  overflow: auto;
+}
+```
+
 
 
 
