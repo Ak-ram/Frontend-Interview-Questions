@@ -8,7 +8,7 @@
 
 <details align=right dir=rtl>
   <summary><h2>الاجابة</h2></summary>
-  <p>ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و `3 اعمدة أو أكثر` زي ما هو ظاهر في الصورة دي 👇 
+  <div>ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و `3 اعمدة أو أكثر` زي ما هو ظاهر في الصورة دي 👇 
 
 <div align=center>
   <a href="https://codepen.io/Akr-am/pen/ZEBYWyX?editors=0100">
@@ -157,7 +157,7 @@
 ### 
 تقدر برده تنفذ ال Layout دا باستخدام ال Css3 Grid زي ما هو موضح [هنا](https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout)  
 
-  <br /></p>
+  <br /></div>
 </details>
 
 
