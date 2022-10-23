@@ -16,7 +16,7 @@
   </a>
 </div>
 <br>
-
+ 
 ال Layout دا يعتبر من ال css issues الي كنا بنواجه صعوبة في تنفيذه فكنا بنعمله بطرق مختلفة و معقده ولكن مع ظهور ال css3 و ظهور ال flexbox و ال grid الموضوع بقي اسهل بكتير.
 
 دلوقتي هنعرف ازاي نعمل ال Layout دا بال flexbox.
@@ -151,8 +151,10 @@
 
 
 بس كدا #
-تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
 
+تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
+<br />
+تقدر برده تنفذ ال Layout دا باستخدام ال Css3 Grid زي ما هو موضح [هنا](https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout)  
 
 ## عايز تعرف اكثر عن ال Holy Grail Layout ؟
 
