@@ -1,8 +1,7 @@
-## السؤال رقم 2 
-### ما هو الفرق بين width | min-width | height | min-height | flex-basis ؟
-
-<br/>
-
+<details align=right dir=rtl>
+  <summary><h2>السؤال رقم 2</h2></summary>
+  <h3>ما هو الفرق بين width | min-width | height | min-height | flex-basis ؟</h3>
+  </details>
 
 
 <details dir=rtl>
