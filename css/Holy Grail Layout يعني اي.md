@@ -12,7 +12,7 @@
 
 ال Layout دا يعتبر من ال css issues الي كنا بنواجه صعوبة في تنفيذه فكنا بنعمله بطرق مختلفة و معقده ولكن مع ظهور ال css3 و ظهور ال flexbox و ال grid الموضوع بقي اسهل بكتير.
 
-دلوقتي هبدأ أشرح ازاي نعمل ال Layout دا بال flexbox.
+دلوقتي هنعرف ازاي نعمل ال Layout دا بال flexbox.
 
 ### أولا : كود ال HTML
 اول حاجة هنعملها هو container لل Layout بتاعنا `<"div class="container>`
@@ -49,13 +49,10 @@
 
 احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container خاصية ال flex و هخلي اتجاهه رأسي: 
 
-```
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
- }
-```
+<div align=center>
+<img width="50%" src="https://user-images.githubusercontent.com/69124951/197394351-dd28e4da-2690-41c3-972e-f17e148a3246.png" />  
+</div>
+
 هنا حطينا ال `height: 100vh` عشان يملأ ال viewport كله.
 
 
