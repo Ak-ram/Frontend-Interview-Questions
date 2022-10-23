@@ -8,7 +8,7 @@
 
 
 ## الاجابة:
-### ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و 3 اعمدة او أكثر زي ما هو ظاهر في الصورة دي 👇 
+### ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و `3 اعمدة أو أكثر` زي ما هو ظاهر في الصورة دي 👇 
 
 <div align=center>
   <a href="https://codepen.io/Akr-am/pen/ZEBYWyX?editors=0100">
@@ -152,6 +152,12 @@
 
 بس كدا #
 تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
+
+
+## عايز تعرف اكثر عن ال Holy Grail Layout ؟
+- المصدر الاول : https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
+- المصدر الثاني : http://alistapart.com/article/holygrail/
+- االمصدر الثالث : https://en.wikipedia.org/wiki/Holy_grail_(web_design) 
 
 
 
