@@ -4,3 +4,9 @@
 <br/>
 
 ## الاجابة:
+| min-height | height | min-width | width | flex-basis | item property        |
+|------------|--------|-----------|-------|------------|----------------------|
+| ❌          | ✔      | ❌         | ✔     | ✔          | Shrinking            |
+| ✔          | ✔      | ✔         | ✔     | ❌          | run on non flex-item |
+| ✔          | ✔      | ✔         | ✔     | Based On   | positioned items     |
+| ❌          | ❌      | ❌         | ❌     | ✔          | flex-shorthand       |
