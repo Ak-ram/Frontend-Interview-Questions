@@ -24,11 +24,16 @@
 ```
  <div class="container">
   <header class="header">Header</header>
-  <div class="content-body">
+  <div class="content-body"></div>
+  <footer class="footer">Footer</footer>
+ </div>
+```
+
+عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `content` و `aside` فهنضيفهم جواه ال div.content-body بالشكل دا
+```
+<div class="content-body">
     <main class="content">Content</main>
     <nav class="sidenav">Nav</nav>
     <aside class="ads">Aside</aside>
   </div>
-  <footer class="footer">Footer</footer>
- </div>
 ```
