@@ -110,8 +110,17 @@
 }
 ```
 
+و عايز ال div.content بس هو الي يحصله grow و دا عشان يملا ال width المتبفي 
+- فهديله flex-grow: 1
+- هقول ان ال width بتاعه هيساوي `100vh - (width: width of nav + width of aside)` الي هو `width: 100% - (100px * 2)`
 
-
+```
+ .content-body .content {
+  flex-grow: 1; /* width: calc(100% - 200px); */
+  overflow: auto;
+  background: #1ABC9C;
+ } 
+```
 
 
 
