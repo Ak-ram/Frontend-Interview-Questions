@@ -30,7 +30,7 @@
  </div>
 ```
 
-عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `content` و `aside` فهنضيفهم جواه ال div.content-body بالشكل دا
+عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `content` و `aside` فهنضيفهم جواه بالشكل دا
 ```
   <div class="content-body">
     <nav class="sidenav">Nav</nav>
@@ -57,7 +57,7 @@
 
 ## ثانيا : كود ال CSS
 
-احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container التنسيقات الاتية: 
+احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container خاصية ال flex و هخلي اتجاهه رأسي: 
 
 ```
 .container {
