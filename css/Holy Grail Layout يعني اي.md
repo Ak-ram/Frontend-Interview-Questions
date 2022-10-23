@@ -1,9 +1,8 @@
-## السؤال رقم 1 
-### يعني اي Holy Grail Layout ؟
-
-
-<br>
-
+<details align=right dir=rtl>
+  <summary><h2>السؤال رقم 1</h2></summary>
+  <h3> يعني اي Holy Grail Layout ؟ 
+  </h3>
+  </details>
 
 
 <details align=right dir=rtl>
