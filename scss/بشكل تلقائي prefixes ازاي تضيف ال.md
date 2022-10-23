@@ -1,7 +1,8 @@
-## السؤال رقم 1
+<details align=right dir=rtl>
+  <summary><h2>السؤال رقم 1</h2></summary>
+  <h3>ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟</h3>
+  </details>
 
-### ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟
-<br />
 
 
 
