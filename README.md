@@ -16,11 +16,11 @@
 
   <tr>
     <th>#</th>
-    <th  colspan="3">السؤال</th>
+    <th  colspan="2">السؤال</th>
   </tr>
 <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
-    <th colspan="4">CSS</th>
+    <th colspan="3">CSS</th>
   </tr>
   <tr>
     <td>1</td>
@@ -29,13 +29,13 @@
 
   <tr>
     <td>2</td>
-    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/width%20%7C%20min-width%20%7C%20height%20%7C%20min-height%20%7C%20flex-basis%20%D9%85%D8%A7%20%D9%87%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86.md">الفرق بين ال width | min-width | height | min-height | flex-basis</a></td>
+    <td colspan="2"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/width%20%7C%20min-width%20%7C%20height%20%7C%20min-height%20%7C%20flex-basis%20%D9%85%D8%A7%20%D9%87%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86.md">الفرق بين ال width | min-width | height | min-height | flex-basis</a></td>
   </tr>
     
   <!---------------------------------------------------------- SCSS Questions ------------------------------------------------------>
 
  <tr>
-    <th colspan="4">SCSS</th>
+    <th colspan="3">SCSS</th>
   </tr>
   
   <tr>
@@ -47,11 +47,12 @@
 
   <tr>
     <th colspan="3">Leetcode (JS)</th>
-    <th rowspan="11">Easy Level</th>
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/tree/master/leetcode/Is%20Valid%20Parenteses">Is Valid Parenteses</a></td>
+    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/tree/master/leetcode/Is%20Valid%20Parenteses">Is Valid Parenteses</a>
+    </td>
+    <td rowspan="10">Easy Level</td>
   </tr>
 
   <tr>
