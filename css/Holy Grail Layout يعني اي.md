@@ -66,7 +66,7 @@
 
 
 ### ثانيا : كود ال CSS
-##@# 1- تنسيق ال div.container
+#### 1- تنسيق ال div.container
 
 احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container خاصية ال flex و هخلي اتجاهه رأسي: 
 
@@ -153,15 +153,14 @@
 بس كدا #
 
 تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
-<br /></p>
+
+### 
+تقدر برده تنفذ ال Layout دا باستخدام ال Css3 Grid زي ما هو موضح [هنا](https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout)  
+
+  <br /></p>
 </details>
 
 
-
-<!-- 
-## الاجابة:
-### 
-تقدر برده تنفذ ال Layout دا باستخدام ال Css3 Grid زي ما هو موضح [هنا](https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout)  
 
 ## عايز تعرف اكثر عن ال Holy Grail Layout ؟
 
@@ -169,6 +168,6 @@
 - [المصدر الثاني](http://alistapart.com/article/holygrail/)
 - [المصدر الثالث](https://en.wikipedia.org/wiki/Holy_grail_(web_design))
 
- -->
+
 
 
