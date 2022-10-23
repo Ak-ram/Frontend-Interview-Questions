@@ -40,7 +40,7 @@
   
   <tr>
     <td>3</td>
-    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md">SCSS تلقائيا باستخدام ال prefixes اضافة ال </a></td>
+    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
   </tr>
     
  <!---------------------------------------------------------- Leetcode Questions ------------------------------------------------------>
