@@ -56,6 +56,7 @@
 
 
 ## ثانيا : كود ال CSS
+### 1- تنسيق ال div.container
 
 احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container خاصية ال flex و هخلي اتجاهه رأسي: 
 
@@ -68,6 +69,9 @@
 ```
 هنا حطينا ال `height: 100vh` عشان يملأ ال viewport كله.
 
+
+### 2- تنسيق ال header و ال footer
+
 ال header و ال footer هديلهم height و ليكن 50px و عايز ال heigth دا يكون ثابت مبيتغيرش -- يعني مش بيحصله grow و لا shrink -- فهحطله `flex-grow: 0` و `flex-shrink: 0`   
 
 ```
@@ -79,5 +83,4 @@
 هنا احنا استخدمنا ال flex property الي بتعتبر shorthand ل `flex: flex-grow flex-shrink flex-basis` 
 
 
-
-
+### 3- تنسيق ال div.content-body
