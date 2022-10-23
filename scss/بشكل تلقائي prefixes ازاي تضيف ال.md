@@ -3,8 +3,13 @@
 ### ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟
 <br />
 
-## الاجابة
 
+
+<details dir=rtl>
+  <summary><h2>الاجابة</h2></summary>
+  <div>
+  
+ 
 عشان نعمل **sass autoprefixer** فاحنا هنستخدم:
 - ال `variables`
 - ال `mixin@` و ال `include@`
@@ -60,6 +65,25 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
   transform: rotate(15deg);
 }
 ```
+
+  
+  
+  </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
