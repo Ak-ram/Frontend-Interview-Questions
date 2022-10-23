@@ -98,15 +98,17 @@
 <img width="60%" src="https://user-images.githubusercontent.com/69124951/197395189-7f69b14c-4f4b-4985-9c89-08fcca155b9c.png" />  
 </div>
 <br>
-و عايز ال div.content بس هو الي يحصله grow و دا عشان يملا ال width المتبفي 
-- فهديله flex-grow: 1
-- هقول ان ال width بتاعه هيساوي `100vh - (width: width of nav + width of aside)` الي هو `width: 100% - (100px * 2)`
+
+عايزين بقا ال div.content يأخذ ال width المتبقي من ال width بتاع ال container الي هو 100% فعندي خيارين: 
+- هقول ان ال width بتاعه هيساوي `100vh - (width: width of nav + width of aside)` الي هو `width: 100vh - (100 * 2)`
+- او اديله `flex-grow: 1` 
 
 
+<br>
 <div align=center>
 <img width="60%" src="https://user-images.githubusercontent.com/69124951/197395128-6d838168-71bc-45ba-8292-b05377a8d250.png" />  
 </div>
-<br>
+
 بس كدا #
 تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
 
