@@ -1,6 +1,7 @@
-# السؤال: يعني اي Holy Grail Flexbox Layout ؟
-
-الصورة بالاسفل توضح ال Layout المطلوب عمله 👇
+## السؤال:
+### يعني اي Holy Grail Layout ؟
+## الاجابة:
+### ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و 3 اعمدة او أكثر زي ما هو ظاهر في الصورة دي 👇 
 
 <div align=center>
   <a href="https://codepen.io/Akr-am/pen/ZEBYWyX?editors=0100">
@@ -9,8 +10,11 @@
 </div>
 
 
-# الاجابة:
-## اولا : كود ال HTML
+ال Layout دا يعتبر من ال css issues الي كنا بنواجه صعوبة في تنفيذه فكنا بنعمله بطرق مختلفة و معقده ولكن مع ظهور ال css3 و ظهور ال flexbox و ال grid الموضوع بقي اسهل بكتير.
+
+دلوقتي هبدأ أشرح ازاي نعمل ال Layout دا بال flexbox.
+
+### أولا : كود ال HTML
 اول حاجة هنعملها هو container لل Layout بتاعنا `<"div class="container>`
 و بعدين هنقسم ال container دا ل 3 صفوف بالشكل دا 👇 
 
@@ -18,40 +22,25 @@
   <img  width="70%" src='https://user-images.githubusercontent.com/69124951/197385015-84fa6c72-bb65-4394-84f2-363eb7dd7fc2.png' />
 </div>
 
-فهنفول ان ال container هيكون جواه 
+وهنقول ان ال container دا هيكون جواه 
 - ال header و الي بيمثل اول صف
 - ال div.content-body و الي بيمثل ثاني صف
 - ال footer و الي بيمثل ثالث صف
-```
- <div class="container">
-  <header class="header">Header</header>
-  <div class="content-body"></div>
-  <footer class="footer">Footer</footer>
- </div>
-```
+<div align=center>
+<img width="50%" src="https://user-images.githubusercontent.com/69124951/197393693-397a5420-654a-49a8-8d91-7a46c1c547d8.png" />  
+</div>
 
-عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `content` و `aside` فهنضيفهم جواه بالشكل دا
-```
-  <div class="content-body">
-    <nav class="sidenav">Nav</nav>
-    <main class="content">Content</main>
-    <aside class="ads">Aside</aside>
-  </div>
-```
+عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `main` و `aside` فهنضيفهم جواه بالشكل دا
+
+<div align=center>
+<img width="50%" src="https://user-images.githubusercontent.com/69124951/197393827-92f16bee-960d-48b5-8e59-5a73a1b85c80.png" />  
+</div>
 
 
 كدا الشكل النهائي لكود ال HTML هو 
-```
- <div class="container">
-  <header class="header">Header</header>
-  <div class="content-body">
-    <nav class="sidenav">Nav</nav>
-    <main class="content">Content</main>
-    <aside class="ads">Aside</aside>
-  </div>
-  <footer class="footer">Footer</footer>
- </div>
-```
+<div align=center>
+<img width="50%" src="https://user-images.githubusercontent.com/69124951/197393887-5820e21e-97ba-4fe3-b52c-919bb92f7b00.png" />  
+</div>
 
 
 
