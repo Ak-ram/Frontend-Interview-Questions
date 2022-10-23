@@ -16,31 +16,31 @@
 
   <tr>
     <th>#</th>
-    <th>السؤال</th>
+    <th  colspan="2">السؤال</th>
   </tr>
 <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
-    <th colspan="2">CSS</th>
+    <th colspan="3">CSS</th>
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/Holy%20Grail%20Layout%20%D9%8A%D8%B9%D9%86%D9%8A%20%D8%A7%D9%8A.md"> تعرف اي عن Holy Grail Layout</a></td>
+    <td colspan="2"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/Holy%20Grail%20Layout%20%D9%8A%D8%B9%D9%86%D9%8A%20%D8%A7%D9%8A.md"> تعرف اي عن Holy Grail Layout</a></td>
   </tr>
 
   <tr>
     <td>2</td>
-    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/width%20%7C%20min-width%20%7C%20height%20%7C%20min-height%20%7C%20flex-basis%20%D9%85%D8%A7%20%D9%87%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86.md">الفرق بين ال width | min-width | height | min-height | flex-basis</a></td>
+    <td colspan="2"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/width%20%7C%20min-width%20%7C%20height%20%7C%20min-height%20%7C%20flex-basis%20%D9%85%D8%A7%20%D9%87%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86.md">الفرق بين ال width | min-width | height | min-height | flex-basis</a></td>
   </tr>
     
   <!---------------------------------------------------------- SCSS Questions ------------------------------------------------------>
 
  <tr>
-    <th colspan="2">SCSS</th>
+    <th colspan="3">SCSS</th>
   </tr>
   
   <tr>
     <td>3</td>
-    <td><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
+    <td colspan="2"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
   </tr>
     
  <!---------------------------------------------------------- Leetcode Questions ------------------------------------------------------>
