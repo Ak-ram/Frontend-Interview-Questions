@@ -1,5 +1,11 @@
-# ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟ 
-عشان نعمل **sass autoprefixer** فاحنا محتاجين نستخدم:
+## السؤال
+
+### ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟
+<br />
+
+## الاجابة
+
+عشان نعمل **sass autoprefixer** فاحنا هنستخدم:
 - ال `variables`
 - ال `mixin@` و ال `include@`
 - ال `each@`
