@@ -46,7 +46,7 @@
  <!---------------------------------------------------------- Leetcode Questions ------------------------------------------------------>
 
   <tr>
-    <th colspan="2">Leetcode (JS)</th>
+    <th colspan="3">Leetcode (JS)</th>
     <th rowspan="11">Easy Level</th>
   </tr>
   <tr>
