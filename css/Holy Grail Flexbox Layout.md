@@ -32,11 +32,11 @@
 
 عندنا ثاني صف متقسم من جواه ل 3 اعمدة وهما `Nav` و `content` و `aside` فهنضيفهم جواه ال div.content-body بالشكل دا
 ```
-<div class="content-body">
-    <main class="content">Content</main>
+  <div class="content-body">
     <nav class="sidenav">Nav</nav>
+    <main class="content">Content</main>
     <aside class="ads">Aside</aside>
-</div>
+  </div>
 ```
 
 
@@ -45,8 +45,8 @@
  <div class="container">
   <header class="header">Header</header>
   <div class="content-body">
-    <main class="content">Content</main>
     <nav class="sidenav">Nav</nav>
+    <main class="content">Content</main>
     <aside class="ads">Aside</aside>
   </div>
   <footer class="footer">Footer</footer>
