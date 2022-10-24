@@ -6,8 +6,11 @@
   </summary>
   <div>
 
-ال **SASS** هي اختصار ل `Syntactically Awesome Style Sheets` و هي عبارة عن CSS Extension (معني CSS Extension: أن ال SASS فيها مميزات مش موجودة في ال CSS العادية) المميزات دي هي انها:
-    <ol type='1'>
+ال **SASS** هي اختصار ل `Syntactically Awesome Style Sheets` و هي عبارة عن CSS Extension 
+> معني CSS Extension هي أن ال SASS فيها مميزات مش موجودة في ال CSS العادية
+
+   المميزات دي هي انها:
+   <ol type='1'>
       <li> بتسمحلنا نستخدم اوامر برمجية زي ال loop - functions - variables وغيرهم في كتابة ال style و دا هيخليني اكتب الكود مرة واحدة و استخدمه اكثر من مرة (DRY: Dont Repeat Yourself)
         <div align=center>
           <br />
