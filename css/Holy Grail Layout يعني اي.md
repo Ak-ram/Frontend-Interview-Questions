@@ -1,14 +1,13 @@
-## السؤال:
-### يعني اي Holy Grail Layout ؟
+<details align=right dir=rtl>
+  <summary><h2>السؤال رقم 1</h2></summary>
+  <h3> يعني اي Holy Grail Layout ؟ 
+  </h3>
+  </details>
 
 
-<br>
-
-
-
-
-## الاجابة:
-### ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و `3 اعمدة أو أكثر` زي ما هو ظاهر في الصورة دي 👇 
+<details align=right dir=rtl>
+  <summary><h2>الاجابة</h2></summary>
+  <div>ال Holy Grail Layout عبارة عن page بتكون من `header` و `footer` و `3 اعمدة أو أكثر` زي ما هو ظاهر في الصورة دي 👇 
 
 <div align=center>
   <a href="https://codepen.io/Akr-am/pen/ZEBYWyX?editors=0100">
@@ -65,8 +64,8 @@
 
 
 
-## ثانيا : كود ال CSS
-### 1- تنسيق ال div.container
+### ثانيا : كود ال CSS
+#### 1- تنسيق ال div.container
 
 احنا عايزين ال 3 صفوف الي جوا ال div.container يكونوا تحت بعض فعشان اعمل كدا هدي لل div.container خاصية ال flex و هخلي اتجاهه رأسي: 
 
@@ -84,7 +83,7 @@
 هنا حطينا ال `height: 100vh` عشان يملأ ال viewport كله.
 
 
-### 2- تنسيق ال header و ال footer
+#### 2- تنسيق ال header و ال footer
 
 ال header و ال footer هديلهم height و ليكن 50px و عايز ال heigth دا يكون ثابت مبيتغيرش -- يعني مش بيحصله grow و لا shrink -- فهحطله `flex-grow: 0` و `flex-shrink: 0`   
 
@@ -153,8 +152,14 @@
 بس كدا #
 
 تقدر تشوف ال source code من هنا : [codepen](https://codepen.io/Akr-am/pen/ZEBYWyX)
-<br />
+
+### 
 تقدر برده تنفذ ال Layout دا باستخدام ال Css3 Grid زي ما هو موضح [هنا](https://www.digitalocean.com/community/tutorials/css-css-grid-holy-grail-layout)  
+
+  <br /></div>
+</details>
+
+
 
 ## عايز تعرف اكثر عن ال Holy Grail Layout ؟
 

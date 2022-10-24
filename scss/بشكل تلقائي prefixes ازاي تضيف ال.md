@@ -1,5 +1,17 @@
-# ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟ 
-عشان نعمل **sass autoprefixer** فاحنا محتاجين نستخدم:
+<details align=right dir=rtl>
+  <summary><h2>السؤال رقم 1</h2></summary>
+  <h3>ازاي تضيف ال prefixes لل css properties بشكل تلقائي باستخدام ال SCSS ؟</h3>
+  </details>
+
+
+
+
+<details dir=rtl>
+  <summary><h2>الاجابة</h2></summary>
+  <div>
+  
+ 
+عشان نعمل **sass autoprefixer** فاحنا هنستخدم:
 - ال `variables`
 - ال `mixin@` و ال `include@`
 - ال `each@`
@@ -15,7 +27,10 @@
 
 لاحظ هنا ان ال `property$` و ال `value$` عبارة عن متغيرات بتخزن جواها قيمة واحده بس بينما ال `prefixes$` عبارة عن متغير بنخزن جواه مجموعة من القيم ( list of values ) بالشكل دا :
 
-```
+
+
+
+```scss
 $property: transform // قيمة واحده
 $value: rotate(12deg) // قيمة واحده
 $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بينهم بمسافة
@@ -24,7 +39,8 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
 > **Example:**
 
 ##### Style.scss file:
-```
+
+```scss
 @mixin prefix($property, $value, $prefixes) {
   @each $prefix in $prefixes {
     -#{$prefix}-#{$property}: $value;
@@ -41,7 +57,7 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
 
 ##### Style.css file [ CSS Output will be ]
 
-```
+```css
 .someClass {
   -webkit-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
@@ -50,6 +66,25 @@ $prefixes: webkit moz o ms   //  مجموعة من القيم مفصول بين�
   transform: rotate(15deg);
 }
 ```
+
+  
+  
+  </div>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
