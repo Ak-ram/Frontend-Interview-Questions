@@ -41,15 +41,13 @@
   
   <tr>
     <td  align=center>3</td>
-    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
-  </tr>
-    
-  <tr>
-    <td  align=center>4</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/Sass%20%D9%8A%D8%B9%D9%86%D9%8A%20%D8%A7%D9%8A.md">يعني اي SASS ؟</a></td>
   </tr>
     
-    
+   <tr>
+    <td  align=center>4</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
+  </tr> 
     
     
     
