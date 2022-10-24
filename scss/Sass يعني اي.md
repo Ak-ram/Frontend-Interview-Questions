@@ -22,12 +22,19 @@
    <img width=65% src="https://user-images.githubusercontent.com/69124951/197530094-59bad686-3f48-447e-9877-64847a74156f.png" />
         </div>
       </li>
-       <li> بتقلل نسبة الخطأ في ال syntax و دا لانها بتعرفلك الخطأ في اي سطر و سببه اي </li>
+       <li> بتقلل نسبة الخطأ في ال syntax و دا لانها بتعرفلك الخطأ في اي سطر و سببه اي 
+      
+         <div align=center> 
+       <br />
+   <img width=65% src="https://user-images.githubusercontent.com/69124951/197531294-3168f05b-f870-4dc5-a66a-93422d9435f9.png" />
+        </div>
+      </li>
     </ol>
 
     
 المتصفح مش بيفهم الا HTML, CSS, JS و بالتالي مش هيفهم كود ال sass, عشان كدا فاحنا محتاجين ل compiler يحول ال sass الي css عادية بحيث يفهمها المتصفح و للسبب دا بقول علي ال sass انها pre-processor
   </div>
 </details>
+
 
 
