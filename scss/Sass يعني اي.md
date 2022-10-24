@@ -17,6 +17,10 @@
       <li> حلت مشكلة ال Globality عن طريق ال Nesting
       </li>
       <li> بتوفرلي ال Paritials الي تخلي الكود منظم اكتر و سهل اعدل عليه فيما بعد
+        <div align=center> 
+       <br />
+   <img width=65% src="https://user-images.githubusercontent.com/69124951/197530094-59bad686-3f48-447e-9877-64847a74156f.png" />
+        </div>
       </li>
        <li> بتقلل نسبة الخطأ في ال syntax و دا لانها بتعرفلك الخطأ في اي سطر و سببه اي </li>
     </ol>
