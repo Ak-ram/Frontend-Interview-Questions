@@ -31,5 +31,10 @@
     </ol>
 
 المتصفح مش بيفهم الا HTML, CSS, JS و بالتالي مش هيفهم كود ال sass, عشان كدا فاحنا محتاجين ل compiler يحول ال sass الي css عادية بحيث يفهمها المتصفح و للسبب دا بقول علي ال sass انها pre-processor
+  
+  <div align=center>
+          <br />
+          <img width=50% src="https://user-images.githubusercontent.com/69124951/197576140-705d439e-83ca-415a-a419-51975bb7de64.jpg" />
+        </div>
   </div>
 </details>
