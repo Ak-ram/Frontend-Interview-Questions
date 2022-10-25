@@ -153,6 +153,39 @@ let func = (arg1,arg2,...,argN)=> expression
     B-->D(" bind/call/apply methods بال Explicit Binding نعمل ")
     B-->E(" في متغير this نخزن قيمة ال ")
 ```
+  
+  
+  
+  1- هنحتفظ بقيمة ال this🟢 الاولي في variable بالشكل دا 
+  
+```javascript
+ function func(student){
+    alert (that.title + ": " + student)
+  }
+  
+  let group = {
+    title: "our group",
+    students: ["Ali", "Mohamed", "Akram"],
+    showList (){
+      that = this; (❗)
+      this.students.forEach(func)
+    }
+  }
+  ```
+ في السطر الي فيه العلامه دي (❗) احنا عملنا assign لقيمة ال this بتاعت ال group context في ال that variable و بكدا أقدر استخدم ال context دا في أي مكان و دا معناه ان ال
+  ```javascript
+  that.title === group.title === "our group"
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </details>
 
 
