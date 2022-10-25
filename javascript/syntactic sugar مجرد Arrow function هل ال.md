@@ -78,7 +78,13 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
   
 
-  
+  ```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
   
   
   
