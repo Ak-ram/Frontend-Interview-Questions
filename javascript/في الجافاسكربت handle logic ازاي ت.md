@@ -34,7 +34,11 @@
 
     ولو لقيتهم اكتر من 2 استخدم:
 <ol type='1' dir=rtl>
-      <li> switch </li>
+  <li> Switch statement
+    <div align=center>
+          <img width=50% src="https://user-images.githubusercontent.com/69124951/197770059-8b05280a-b3fc-4ecb-8b11-7d3218a8e625.png" />
+       </div>
+  </li>
       <li> objects </li>
     </ol>
 
