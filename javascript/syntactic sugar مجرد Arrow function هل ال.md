@@ -69,11 +69,11 @@ let func = (arg1,arg2,...,argN)=> expression
   و برده في ال React لما نيجي نعمل return ل jsx object بنحطه جوا ( ) 
   ```javascript
   policy.values.map(value => {
-    return(
+    return (
       <Form.Field key={ value.name }>
          <label>{ value.displayName || value.name }</label>
           <Checkbox toggle />
-      </Form.Field>)
+      </Form.Field> )
   }
   ```
   
