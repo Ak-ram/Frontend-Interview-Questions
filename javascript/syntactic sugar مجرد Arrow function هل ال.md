@@ -212,6 +212,18 @@ let func = (arg1,arg2,...,argN)=> expression
 
  في السطر الي فيه العلامه دي (❗) ال this value الي جوا ال arrow function هتتأخذ من ال outer context الي هو group object
   
+  كدا شرحنا السببين الي عشانهم تم انشاء ال Arrow Function
+  ---
+  
+  هل بقا ال Arrow Function تعتبر بديل لل Regular Function ؟
+  طبعا لأ... ودا لأن ال arrow function أتعملت أصلا عشان تكون "single use" بمعني أنها تعتبر short و concise و كمان مناسية جدا أني أستخدمها ك   callback مع ال `()forEach` و ال `()map` عشان مشكلة ال this... بس في نفس الوقت ليها limitaions كثيرة زي:- 
+  
+  
+  
+  
+  
+  
+  
   
 </details>
 
