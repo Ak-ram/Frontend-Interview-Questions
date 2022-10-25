@@ -38,7 +38,7 @@ let func = (arg1,arg2,...,argN)=> expression
   const func = (x) => expression  أو   const func = x => expression
   ```
   
-  : 
+
     - أكتر من 1  فال ( ) هيكونوا اجباري بالشكل دا 
   
   ```javascript
