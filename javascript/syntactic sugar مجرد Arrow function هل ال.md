@@ -156,7 +156,7 @@ let func = (arg1,arg2,...,argN)=> expression
   
   
   
-  1- هنحتفظ بقيمة ال this🟢 الاولي في variable بالشكل دا 
+ #### 1- هنحتفظ بقيمة ال this🟢 الاولي في variable بالشكل دا 
   
 ```javascript
  function func(student){
@@ -178,11 +178,33 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
   
   
+#### 2- هنعمل explicit binding باستخدام ال bind method بالشكل دا:
+```javascript
+ function func(student){
+    alert (this.title + ": " + student)
+  }
+  
+  let group = {
+    title: "our group",
+    students: ["Ali", "Mohamed", "Akram"],
+    showList (){
+      this.students.forEach(func.bind(this)) (❗)
+    }
+  }
+```
   
   
-  
-  
-  
+#### 3- هنستخدم ال Arrow Function بالشكل دا:
+
+```javascript
+  let group = {
+    title: "our group",
+    students: ["Ali", "Mohamed", "Akram"],
+    showList (){
+      this.students.forEach(student => console.log(this.title + ": " + student) ) (❗)
+    }
+  }
+```
   
   
   
