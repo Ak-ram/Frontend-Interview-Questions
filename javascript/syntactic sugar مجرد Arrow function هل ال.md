@@ -13,8 +13,17 @@
   ```
  طيب هو احنا كنا عايزين حاجة زي ال Arrow Function دي لي ؟ `لسببين`
   
-- انها short syntax و concise و بتوفر علينا ال Boilerplate code بتاع ال regular function
+- انها syntactic sugar
 - بتحل المشكلة الأزلية لل `this` keyword
+
+
+هنبدأ دلوقتي نشرح كل سبب بالتفصيل...
+  
+### أولا: انها syntactic sugar 
+ 
+ال arrow function تعتبر short syntax و concise و بتوفر علينا ال Boilerplate code بتاع ال regular function و في شوية rules لازم تتبعها عشان تكتب ال arrow function و هي:
+  - لازم نعملها assign ل variable معين أو نستخدمها ك callback [يعني مينفعش أعملها define علطول زي ال regular function]
+  img
 </details>
 
 
