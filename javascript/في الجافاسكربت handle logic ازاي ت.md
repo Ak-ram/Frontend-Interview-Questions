@@ -50,7 +50,7 @@
           <img width=50% src="https://user-images.githubusercontent.com/69124951/197770059-8b05280a-b3fc-4ecb-8b11-7d3218a8e625.png" />
        </div>
   </li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer">Literal Oject </a> 
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer">Literal Object </a> 
     <div align=center>
           <img width=50% src="https://user-images.githubusercontent.com/69124951/197770450-cabfb77f-e1c1-4bb4-9614-db45fe593bda.png" />
     </div>
