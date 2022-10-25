@@ -13,8 +13,8 @@
  ```mermaid
   flowchart TD
     B["fab:fa-twitter Arrow function ال"]
-    B-->C[ regular function لل Syntactic Sugar تعتبر]
-    B-->E(this keyword بتحل المشكلة الأزلية لل )
+    B-->C(this keyword بتحل المشكلة الأزلية لل )
+    B-->E[ regular function لل Syntactic Sugar تعتبر]
 ```
   
 
