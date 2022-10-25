@@ -11,14 +11,13 @@
   ```
  طيب هو احنا كنا عايزين حاجة زي ال Arrow Function دي لي ؟ `لسببين`
  ```mermaid
-  graph TD;
-    Arrow-function-->is_syntactic_sugar;
-    Arrow-function-->solve-this-keyword-problem;
-
+  flowchart TD
+    B["fab:fa-twitter Arrow function ال"]
+    B-->C[ regular function لل Syntactic Sugar تعتبر]
+    B-->E(this keyword بتحل المشكلة الأزلية لل )
 ```
+  
 
-- انها syntactic sugar
-- بتحل المشكلة الأزلية لل `this` keyword
 
 
 هنبدأ دلوقتي نشرح كل سبب بالتفصيل...
