@@ -226,7 +226,7 @@ let func = (arg1,arg2,...,argN)=> expression
   graph RL
     A["Arrow Function Limitations"]
     A --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
-    A --> D(Round Rect)
+    A --> D(كبديل spread operator و بالتالي بتستخدم ال arguments)
     A --> E(Round Rect)
     A --> F(Round Rect)
     A --> G(Round Rect)
