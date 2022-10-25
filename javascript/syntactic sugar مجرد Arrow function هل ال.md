@@ -224,12 +224,12 @@ let func = (arg1,arg2,...,argN)=> expression
   
 ```mermaid
   graph RL
-    A["Arrow Function Limitations"]
-    A --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
-    A --> D(كبديل spread operator و بالتالي بتستخدم ال arguments)
-    A --> E(Constructor Function و بالتالي مقدرش أستخدمها ك this)
-    A --> F(الثانية Functions من ال Inherit و بالتالي مقدرش اخليها ت prototype)
-    A --> G(super())
+    A["Arrow Function Limitations"] --> B(مفيهاش)
+    B --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
+    B --> D(كبديل spread operator و بالتالي بتستخدم ال arguments)
+    B --> E(Constructor Function و بالتالي مقدرش أستخدمها ك this)
+    B --> F(الثانية Functions من ال Inherit و بالتالي مقدرش اخليها ت prototype)
+    B --> G("super()")
 
 ```
   
