@@ -12,8 +12,9 @@
     }
   ```
  طيب هو احنا كنا عايزين حاجة زي ال Arrow Function دي لي ؟ `لسببين`
-  1- انها short syntax و concise و بتوفر علينا ال Boilerplate code بتاع ال regular function
-  2- بتحل المشكلة الأزلية لل this keyword
+  
+- انها short syntax و concise و بتوفر علينا ال Boilerplate code بتاع ال regular function
+- بتحل المشكلة الأزلية لل `this` keyword
 </details>
 
 
