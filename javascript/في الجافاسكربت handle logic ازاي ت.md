@@ -20,7 +20,7 @@
   
   
   
-فأنت محتاج الاول تشوف عدد ال conditional statements الي عندك لو لقيتيها 2 بس أستخدم:
+فأنت محتاج الاول تشوف عدد ال conditional statements الي عندك لو لقيتيها 2 أو 3 بس أستخدم:
     
 
     
@@ -43,7 +43,7 @@
   </li>
 </ol>
 
-ولو لقيتهم اكتر من 2 استخدم:
+ولو لقيتهم اكتر من كدا استخدم:
 <ol type='1' dir=rtl>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch">Switch statement</a> 
     <div align=center>
