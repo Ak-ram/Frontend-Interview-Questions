@@ -19,9 +19,14 @@
           <img width=50% src="https://user-images.githubusercontent.com/69124951/197768034-6cd38f8d-1c60-49ca-aae8-c47f95b5546c.png" />
        </div>
   </li>
-      <li> ternary operator </li>
+  <li> ternary operator
+      <div align=center>
+          <img width=50% src="https://user-images.githubusercontent.com/69124951/197768594-77b4b7f7-04ce-4a06-8210-177144566e07.png" />
+       </div>
+  </li>
       <li> && أو ?? أو || </li>
 </ol>
+
     ولو لقيتهم اكتر من 2 استخدم:
 <ol type='1' dir=rtl>
       <li> switch </li>
