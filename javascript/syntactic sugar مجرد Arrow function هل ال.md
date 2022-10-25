@@ -114,6 +114,12 @@ let func = (arg1,arg2,...,argN)=> expression
   ```javascript
   this.title === window.title === undefined
   ```
+  
+  طب ثواني...
+  احنا عرفنا نحدد ال context بتاع كل this ازاي ؟ 
+  
+  لو بصيت علي المثال مرة ثانية هتلافي ان
+  - ال this الاولي معمولها implicit binding بال group object بالشكل دا => group.showList()d و بالتالي ال this دي هتعود علي ال group object. 
 </details>
 
 
