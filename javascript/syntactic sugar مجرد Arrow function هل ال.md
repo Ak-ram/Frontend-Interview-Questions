@@ -208,8 +208,7 @@ let func = (arg1,arg2,...,argN)=> expression
 
 من مميزات ال arrow function انها مش بتتعامل ك context و بالتالي مفيهاش لا `this` ولا `arguments` ولا `prototype` ولا `yield` ولا `()super` و بالتالي الي بيحصل ان ال value of these keywords بتتأخذ من ال outer context الي شايل ال arrow function.
   
-> عشان نفهم السطر الي فوق دا قأحنا محتاجين نقرأ المقال دا الأول  
-  [ازاي ال js بتشتغل](https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84%20JS%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%A7%D9%84.md)
+> عشان نفهم السطر الي فوق دا قأحنا محتاجين نقرأ المقال دا الأول [ازاي ال js بتشتغل](https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84%20JS%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%A7%D9%84.md)
  في السطر الي فيه العلامه دي (❗) ال this value الي جوا ال arrow function هتتأخذ من ال outer context الي هو group object
   
   
