@@ -1,4 +1,4 @@
-<h2 align=center>ازاي تتعامل مع ال js conditions</h2>
+<h2 align=center>ازاي تتجنب ال if/else hell</h2>
 
 <details dir=rtl>
   <summary>
