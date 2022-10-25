@@ -67,7 +67,15 @@ let func = (arg1,arg2,...,argN)=> expression
   const func = () => ( {name: 'Ali'} )
   ```
   
-  
+  ```javascript
+  policy.values.map(value => {
+    return(
+      <Form.Field key={ value.name }>
+         <label>{ value.displayName || value.name }</label>
+          <Checkbox toggle />
+      </Form.Field>)
+  }
+  ```
   
 
   
