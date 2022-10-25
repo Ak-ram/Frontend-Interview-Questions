@@ -7,9 +7,7 @@
 
   ال Arrow function هي طريقة تانية لكتابة ال regular function و ال syntax بتاعها هو:-
   ```javascript
-    (arg1,arg2,...,argN) => {
-      // ...
-    }
+   (arg1,arg2,...,argN) => expression
   ```
  طيب هو احنا كنا عايزين حاجة زي ال Arrow Function دي لي ؟ `لسببين`
   
@@ -23,7 +21,31 @@
  
 ال arrow function تعتبر short syntax و concise و بتوفر علينا ال Boilerplate code بتاع ال regular function و في شوية rules لازم تتبعها عشان تكتب ال arrow function و هي:
   - لازم نعملها assign ل variable معين أو نستخدمها ك callback [يعني مينفعش أعملها define علطول زي ال regular function]
-  img
+  ```javascript
+  
+  // assign to a variable
+let func = (arg1,arg2,...,argN)=> expression
+
+// pass as a callback
+[...].map((arg1,arg2,...,argN)=> expression)
+  
+  ```
+  
+  - ال params لو كان عددها: 
+    - 1 بس فال ( ) هيكونوا اختياري بالشكل دا 
+  
+  ```javascript
+  const func = (x) => expression  أو   const func = x => expression
+  ```
+  
+  : 
+    - أكتر من 1  فال ( ) هيكونوا اجباري بالشكل دا 
+  
+  ```javascript
+  const func = (x,y,z) => expression
+  ```
+  
+  
 </details>
 
 
