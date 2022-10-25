@@ -224,7 +224,7 @@ let func = (arg1,arg2,...,argN)=> expression
   
 ```mermaid
   graph RL
-    A["Arrow Function Limitations"] --> B(مفيهاش)
+    A["Arrow Function Limitations"] --> B((مفيهاش))
     B --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
     B --> D(كبديل spread operator و بالتالي بتستخدم ال arguments)
     B --> E(Constructor Function و بالتالي مقدرش أستخدمها ك this)
