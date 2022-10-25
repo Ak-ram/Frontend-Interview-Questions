@@ -10,7 +10,13 @@
    (arg1,arg2,...,argN) => expression
   ```
  طيب هو احنا كنا عايزين حاجة زي ال Arrow Function دي لي ؟ `لسببين`
-  
+ ```mermaid
+  graph TD;
+    Arrow-function-->is_syntactic_sugar;
+    Arrow-function-->solve-this-keyword-problem;
+
+```
+
 - انها syntactic sugar
 - بتحل المشكلة الأزلية لل `this` keyword
 
@@ -78,15 +84,7 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
   
 
-  ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-  
-  
+
   
   
 </details>
