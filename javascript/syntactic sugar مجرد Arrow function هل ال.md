@@ -32,17 +32,17 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
   
   - ال params لو كان عددها: 
-    - 1 بس فال ( ) هيكونوا اختياري بالشكل دا 
+    - 1 بس فال ( ) هيكونوا اختياري 
+    - أكتر من 1  فال ( ) هيكونوا اجباري
+    - من غير Params خالص فأنت ممكن
+        - تسيب ال ( ) فاضيين
+        - تحط underscore بالشكل دا ( _ ) أو _
+
   
   ```javascript
   const func = (x) => expression  أو   const func = x => expression
-  ```
-  
-
-    - أكتر من 1  فال ( ) هيكونوا اجباري بالشكل دا 
-  
-  ```javascript
   const func = (x,y,z) => expression
+  const func = ()=> expression أو const func = _ => expression أو const func = (_)=> expression
   ```
   
   
