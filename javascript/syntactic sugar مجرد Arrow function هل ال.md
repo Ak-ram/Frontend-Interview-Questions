@@ -61,7 +61,11 @@ let func = (arg1,arg2,...,argN)=> expression
   const func = (x,y,z) => x + y + z; // implicit return
 ```
   
-  
+  - في حالة ال implicit return لو هنعمل return ل object فهنا لازم نحط ال object دا جوا ( ) بالشكل دا:
+ 
+  ```javascript
+  const func = () => ( {name: 'Ali'} )
+  ```
   
   
   
