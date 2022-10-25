@@ -46,7 +46,7 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
  - عدد ال statements جوا ال function body لو كان:
     - كتير : فبستخدم ال {} و return keyword يعني ال return هنا هيكون نوعهاexplicit return
-    - واحده بس : فبستخدم ال {} و return keyword يعني ال return هنا هيكون نوعهاexplicit return
+    - واحده بس : فأقدر أستغني عن ال {} و return keyword يعني ال return هنا هيكون نوعها implicit return
     
 
   
