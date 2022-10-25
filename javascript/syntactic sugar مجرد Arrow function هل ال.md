@@ -96,14 +96,15 @@ let func = (arg1,arg2,...,argN)=> expression
     students: ["Ali", "Mohamed", "Akram"],
     showList (){
       🟢this.students.forEach(function func(student){
-        alert(🔴this.title + ": " + student)
+        console.log(🔴this.title + ": " + student)
       })
     }
   }
   
-  group.showList(); // typeError: cannot read property of undefined
+  group.showList(); // "undefined: Ali" then "undefined: Mohamed" then "undefined: Akram"
+
   ```
-  ال error دا حصل ليه ؟
+  في هنا Unexpected Error حصل و هو ان ال this.title بترجع undefined... طب اي السبب ؟
  
    &#x21A2;
 ال this الاولي الي جنبها 🟢 مختلفة عن ال this الثانية الي جنبها 🔴 و دا لأن ال 
@@ -124,21 +125,20 @@ let func = (arg1,arg2,...,argN)=> expression
   
   
   ```javascript
-  
-  function func(student){
-    alert (this.title + ": " + student)
+ function func(student){
+    alert (🔴this.title + ": " + student)
   }
+  ↑ ↑ ↑
   
   let group = {
     title: "our group",
     students: ["Ali", "Mohamed", "Akram"],
     showList (){
-      🟢this.students.forEach(func)
+      this.students.forEach(func)
     }
   }
-  
-  
   ```
+  و نتيجة لل Hoisting دا فال this🔴 دي هتشير الي ال Global context الي هو ال window object و عشان ال window object مش موجود جواه property اسمها title فهيدي undefined
   
   
 </details>
