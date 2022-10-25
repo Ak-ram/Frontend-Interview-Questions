@@ -5,9 +5,9 @@
     <h2>الاجابة</h2>
   </summary>
 
-لما بتكتب كود بال JavaScript أو أي لغة برمجة أخرى فأحنا غالبا بنبقي محتاجين ننفذ كود بناء علي شرط معين ودا بنسميه `conditional statements`
+لما بتكتب كود بال JavaScript أو أي لغة برمجة تانية فأحنا غالبا بنبقي محتاجين ننفذ كود بناء علي شرط معين ودا بنسميه `conditional statements`
     
-أحيانا بيكون عندي conditional statements كثيره جدا ودا بيكونلي [if/else hell](https://www.zealousweb.com/wp-content/uploads/2021/02/image1.png) و دا طبعا بيخلي الكود غير مقروء.
+أحيانا بيكون عندي conditional statements كثيره جدا بيكونولي في النهاية [if/else hell](https://www.zealousweb.com/wp-content/uploads/2021/02/image1.png) و دا طبعا بيخلي الكود غير مقروء.
     
   
 
@@ -35,7 +35,7 @@
           <img width=50% src="https://user-images.githubusercontent.com/69124951/197768594-77b4b7f7-04ce-4a06-8210-177144566e07.png" />
        </div>
   </li>
-  <li> && 
+  <li> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND">Logical Conjunction</a>
     <div align=center>
       <img width=50% src="https://user-images.githubusercontent.com/69124951/197769573-37fc0aeb-7866-4bfd-9ffe-5c1ffe82a1ca.png" />
     </div>
