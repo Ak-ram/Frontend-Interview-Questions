@@ -243,10 +243,12 @@ let func = (arg1,arg2,...,argN)=> expression
 ```
    
 ```javascript
-  const funcProperty = () => {}
+  const func = () => {}
   funcProperty.prototype.add = () => {}; // Uncaught TypeError: Cannot set properties of undefined (setting 'add') 
 ``` 
-  
+ 
+  في المثال دا أحنا عايزين نضيف add method لل prototype الي جوا ال func و لما أن ال func عبارة عن arrow function يعني مفيهاش prototype و بالتالي ال `funcProperty.prototype` هتدينا `undefined`.
+  يعني كأني بقول `undefined.add` و دا أداني error بيقول فيه مينفعش أضيف property ل undefined data type
   
   
   
