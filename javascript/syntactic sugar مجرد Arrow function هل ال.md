@@ -212,10 +212,12 @@ let func = (arg1,arg2,...,argN)=> expression
 
  في السطر الي فيه العلامه دي (❗) ال this value الي جوا ال arrow function هتتأخذ من ال outer context الي هو group object
   
-  كدا شرحنا السببين الي عشانهم تم انشاء ال Arrow Function
+  
+كدا شرحنا السببين الي عشانهم تم انشاء ال Arrow Function
+  
   ---
   
-  هل بقا ال Arrow Function تعتبر بديل لل Regular Function ؟
+### هل بقا ال Arrow Function تعتبر بديل لل Regular Function ؟
   
   طبعا لأ... ودا لأن ال arrow function أتعملت أصلا عشان تكون "single use" بمعني أنها تعتبر short و concise و كمان مناسية جدا أني أستخدمها ك   callback مع ال `()forEach` و ال `()map` عشان مشكلة ال this... بس في نفس الوقت ليها limitaions كثيرة زي:- 
   
@@ -230,8 +232,26 @@ let func = (arg1,arg2,...,argN)=> expression
     B --> E(Constructor Function و بالتالي مقدرش أستخدمها ك this)
     B --> F(الثانية Functions من ال Inherit و بالتالي مقدرش اخليها ت prototype)
     B --> G("super()")
-
 ```
+  
+  
+  Examples:
+  
+```javascript
+  const a = () => {}
+  let f = new a(); // Uncaught TypeError: a is not a constructor
+```
+   
+```javascript
+  const funcProperty = () => {}
+  funcProperty.prototype.add = () => {}; // Uncaught TypeError: Cannot set properties of undefined (setting 'add') 
+``` 
+  
+  
+  
+  
+  
+  
   
   
 </details>
