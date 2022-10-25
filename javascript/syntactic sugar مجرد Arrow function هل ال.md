@@ -227,7 +227,7 @@ let func = (arg1,arg2,...,argN)=> expression
     A["Arrow Function Limitations"]
     A --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
     A --> D(كبديل spread operator و بالتالي بتستخدم ال arguments)
-    A --> E(Round Rect)
+    A --> E(this لل  assign جديد و بتعمله object بتنشأ new keyword و دا لأن ال Constructor Function و بالتالي مقدرش أستخدمها ك this)
     A --> F(Round Rect)
     A --> G(Round Rect)
 
