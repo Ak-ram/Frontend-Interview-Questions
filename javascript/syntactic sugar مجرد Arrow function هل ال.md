@@ -1,5 +1,47 @@
 <h2 align=center>syntactic sugar مجرد Arrow function هل ال</h2>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <details dir=rtl>
   <summary>
     <h2>الاجابة</h2>
@@ -17,7 +59,6 @@
     B-->E[ regular function لل Syntactic Sugar تعتبر]
 ```
   
-
 
 
 هنبدأ دلوقتي نشرح كل سبب بالتفصيل...
@@ -45,6 +86,8 @@ let func = (arg1,arg2,...,argN)=> expression
 
   
   ```javascript
+  
+
   const func = (x) => expression  أو   const func = x => expression
   const func = (x,y,z) => expression
   const func = ()=> expression أو const func = _ => expression أو const func = (_)=> expression
@@ -72,7 +115,7 @@ let func = (arg1,arg2,...,argN)=> expression
   const func = () => ( {name: 'Ali'} )
   ```
   و برده في ال React لما نيجي نعمل return ل jsx object بنحطه جوا ( ) 
-  ```javascript
+  ```JSX
   policy.values.map(value => {
     return (
       <Form.Field key={ value.name }>
