@@ -53,11 +53,12 @@ let func = (arg1,arg2,...,argN)=> expression
   
   
 ```javascript
- const func = (x) => {
+ const func = (x,y,z) => {
     // statement 1
     // statement 2
+  return x+y+z;  // explicit return
   }
-  const func = (x,y,z) => x + y + z; 
+  const func = (x,y,z) => x + y + z; // implicit return
 ```
   
   
