@@ -45,22 +45,26 @@ let func = (arg1,arg2,...,argN)=> expression
   const func = ()=> expression أو const func = _ => expression أو const func = (_)=> expression
   ```
   
-- عدد ال statements جوا ال function body لو كان:
-      - كتير : فبستخدم ال {} و return keyword يعني ال return هنا هيكون نوعها explicit return
-        - واحدة بس: فأقدر أستغني عن ال {} و ال return keyword يعني ال return هنا هيكون نوعها implicit return
+  - عدد ال statements جوا ال function body لو كان:
+  
+    - كتير : فبستخدم ال {} و return keyword يعني ال return هنا هيكون نوعها explicit return
+  
+    - واحدة بس: فأقدر أستغني عن ال {} و ال return keyword يعني ال return هنا هيكون نوعها implicit return
   
   
-    ```javascript
-  const func = (x) => {
+```javascript
+ const func = (x) => {
     // statement 1
     // statement 2
   }
-  const func = (x,y,z) => x + y + z; // Implicit return
-  ```
+  const func = (x,y,z) => x + y + z; 
+```
   
   
   
   
+  
+
   
   
   
