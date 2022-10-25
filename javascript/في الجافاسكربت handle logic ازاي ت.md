@@ -20,11 +20,16 @@
        </div>
   </li>
   <li> ternary operator
-      <div align=center>
+    <div align=center>
           <img width=50% src="https://user-images.githubusercontent.com/69124951/197768594-77b4b7f7-04ce-4a06-8210-177144566e07.png" />
        </div>
   </li>
-      <li> && أو ?? أو || </li>
+  <li> && 
+    <div align=center>
+      <img width=50% src="https://user-images.githubusercontent.com/69124951/197769573-37fc0aeb-7866-4bfd-9ffe-5c1ffe82a1ca.png" />
+    </div>
+  </li>
+  </li>
 </ol>
 
     ولو لقيتهم اكتر من 2 استخدم:
