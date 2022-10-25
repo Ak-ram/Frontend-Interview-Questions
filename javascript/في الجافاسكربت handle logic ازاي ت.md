@@ -11,10 +11,14 @@
     
 فأنت محتاج الاول تشوف عدد ال conditional statements الي عندك لو لقيتيها 2 بس أستخدم:
     
-    
+
     
 <ol type='1' dir=rtl>
-      <li> if else </li>
+  <li> if else statement 
+      <div align=center>
+          <img width=50% src="https://user-images.githubusercontent.com/69124951/197768034-6cd38f8d-1c60-49ca-aae8-c47f95b5546c.png" />
+       </div>
+  </li>
       <li> ternary operator </li>
       <li> && أو ?? أو || </li>
 </ol>
