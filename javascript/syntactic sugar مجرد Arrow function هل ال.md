@@ -216,13 +216,22 @@ let func = (arg1,arg2,...,argN)=> expression
   ---
   
   هل بقا ال Arrow Function تعتبر بديل لل Regular Function ؟
+  
   طبعا لأ... ودا لأن ال arrow function أتعملت أصلا عشان تكون "single use" بمعني أنها تعتبر short و concise و كمان مناسية جدا أني أستخدمها ك   callback مع ال `()forEach` و ال `()map` عشان مشكلة ال this... بس في نفس الوقت ليها limitaions كثيرة زي:- 
   
   
+
   
-  
-  
-  
+```mermaid
+  graph RL
+    A["Arrow Function Limitations"]
+    A --> C(Generator Function و بالتالي مقدرش أستخدمها ك yield )
+    A --> D(Round Rect)
+    A --> E(Round Rect)
+    A --> F(Round Rect)
+    A --> G(Round Rect)
+
+```
   
   
 </details>
