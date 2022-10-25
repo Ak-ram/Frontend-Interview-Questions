@@ -1,47 +1,6 @@
 <h2 align=center>syntactic sugar مجرد Arrow function هل ال</h2>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details dir=rtl>
   <summary>
     <h2>الاجابة</h2>
@@ -126,7 +85,24 @@ let func = (arg1,arg2,...,argN)=> expression
   ```
   
 
+### ثانيا: انها حلت مشكلة ال this keyword
 
+  في الأول خلينا نعرف اي هي مشكلة ال `this` الي بنتكلم عليها...
+  لو بصيت علي الكود دا
+  ```js
+  
+  let group = {
+    title: "our group",
+    students: ["Ali", "Mohamed", "Akram"],
+    showList (){
+      this.students.forEach(function func(student){
+        alert(this.title + ": " + student)
+      })
+    }
+  }
+  
+  
+  ```
   
   
 </details>
