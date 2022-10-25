@@ -149,9 +149,9 @@ let func = (arg1,arg2,...,argN)=> expression
    ```mermaid
   flowchart TD
     B["عندنا 3 حلول"]
-    B-->C("Arrow Function نستخدم ال")
-    B-->D(" bind() / call() / apply() بال Explicit Binding نعمل ")
-    B-->E("في متغير this نخزن قيمة ال ")
+    B-->C(" Arrow Function نستخدم ال ")
+    B-->D(" bind/call/apply methods بال Explicit Binding نعمل ")
+    B-->E(" في متغير this نخزن قيمة ال ")
 ```
 </details>
 
