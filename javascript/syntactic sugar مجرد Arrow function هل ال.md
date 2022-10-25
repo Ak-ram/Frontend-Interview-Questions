@@ -205,7 +205,7 @@ let func = (arg1,arg2,...,argN)=> expression
     }
   }
 ```
-(❗) ال arrow function مش بتتعامل ك context و بالتالي مفيهاش لا `this` ولا `arguments` ولا `prototype` ولا `yield` ولا `()super` و بالتالي الي بيحصل ان ال value of these keywords بتتأخذ من ال outer context الي شايل ال arrow function
+(❗) ال arrow function مش بتتعامل ك context و بالتالي مفيهاش لا `this` ولا `arguments` ولا `prototype` ولا `yield` ولا `()super` و بالتالي الي بيحصل ان ال value of these keywords بتتأخذ من ال outer context الي شايل ال arrow function ال هو ال group object
   
   
 </details>
