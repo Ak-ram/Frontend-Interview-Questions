@@ -120,6 +120,27 @@ let func = (arg1,arg2,...,argN)=> expression
   
   لو بصيت علي المثال مرة ثانية هتلاقي ان
   - ال this الاولي معمولها implicit binding بال group object بالشكل دا => `()group.showList` و بالتالي ال this دي هتعود علي ال group object. 
+  - ال this الثانية موجودة جوا function و احنا عارفين ان ال js functions بيحصلها Hoisting **خلينا نقول دلوقتي مجازا أن ال Hoisting معناها ان ال functions بيحصلها رفع في ال global context** بالشكل دا:
+  
+  
+  ```javascript
+  
+  function func(student){
+    alert (this.title + ": " + student)
+  }
+  
+  let group = {
+    title: "our group",
+    students: ["Ali", "Mohamed", "Akram"],
+    showList (){
+      🟢this.students.forEach(func)
+    }
+  }
+  
+  
+  ```
+  
+  
 </details>
 
 
