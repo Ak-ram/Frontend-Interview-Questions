@@ -66,7 +66,7 @@ let func = (arg1,arg2,...,argN)=> expression
   ```javascript
   const func = () => ( {name: 'Ali'} )
   ```
-  
+  و برده في ال React لما نيجي نعمل return ل jsx object بنحطه جوا ( ) 
   ```javascript
   policy.values.map(value => {
     return(
