@@ -95,15 +95,20 @@ let func = (arg1,arg2,...,argN)=> expression
     title: "our group",
     students: ["Ali", "Mohamed", "Akram"],
     showList (){
-      this.students.forEach(function func(student){
-        alert(this.title + ": " + student)
+      🟢this.students.forEach(function func(student){
+        alert(🔴this.title + ": " + student)
       })
     }
   }
   
-  
+  group.showList(); // typeError: cannot read property of undefined
   ```
-  
+  ال error دا حصل ليه ؟
+ 
+   &#x21A2;
+ال this الاولي الي جنبها 🟢 مختلفة عن ال this الثانية الي جنبها 🔴 و دا لأن ال 
+  - ال this الاولي موجودة في ال context بتاع ال group object و بالتالي ال this هنا بتشير الي ال group object
+  - بينما ال this الثانية موجودة في ال Global context و بالتالي ال this دي بتشير الي ال window object
   
 </details>
 
