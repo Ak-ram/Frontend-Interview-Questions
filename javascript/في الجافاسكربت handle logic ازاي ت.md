@@ -7,8 +7,19 @@
 
 لما بتكتب كود بال JavaScript أو أي لغة برمجة أخرى فأحنا غالبا بنبقي محتاجين ننفذ كود بناء علي شرط معين ودا بنسميه `conditional statements`
     
-أحيانا بيكون عندي conditional statements كثيره جدا ودا بيكونلي if else hell و دا طبعا بيخلي الكود غير مقروء.
+أحيانا بيكون عندي conditional statements كثيره جدا ودا بيكونلي [if/else hell](https://www.zealousweb.com/wp-content/uploads/2021/02/image1.png) و دا طبعا بيخلي الكود غير مقروء.
     
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
 فأنت محتاج الاول تشوف عدد ال conditional statements الي عندك لو لقيتيها 2 بس أستخدم:
     
 
