@@ -23,7 +23,7 @@
 إذا في فرق بين ال module script و ال regular script و الفروقات دي هي
   
   
-<div dir=rtl>
+<div dir=rtl align=center>
   <table>
     <tr>
       <th align=right>#</th>
