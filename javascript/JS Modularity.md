@@ -23,48 +23,47 @@
 إذا في فرق بين ال module script و ال regular script و الفروقات دي هي
   
   
-  
-<div align=center dir=rtl>
+<div dir=rtl>
   <table>
     <tr>
-      <th>#</th>
-      <th  colspan="2">Regular script</th>
-      <th  colspan="2">Module script</th>
+      <th align=right>#</th>
+      <th  colspan="2" align=center>Regular script</th>
+      <th  colspan="2" align=center>Module script</th>
     </tr>
     <tr>
       <td>Protocol</td>
-      <td  colspan="2">local file & Http & Https</td>
-      <td  colspan="2">Https & live-server</td>
+      <td  colspan="2" align=center>local file & Http & Https</td>
+      <td  colspan="2" align=center>Https & live-server</td>
     </tr>
     <tr>
       <td>Extension</td>
       <td  align=center colspan="2">js.</td>
-      <td  colspan="2"> js. أو mjs. أو mjs.js.</td>
+      <td  colspan="2" align=center> js. أو mjs. أو mjs.js.</td>
     </tr>
     <tr>
       <td>Default Mode</td>
       <td  align=center colspan="2">Sloppy mode</td>
-      <td  colspan="2">Strict mode</td>
+      <td  colspan="2" align=center>Strict mode</td>
     </tr>
     <tr>
       <td>Scope</td>
       <td  align=center colspan="2">Global Scope</td>
-      <td  colspan="2">Module-Level Scope</td>
+      <td  colspan="2" align=center>Module-Level Scope</td>
     </tr>
     <tr>
       <td>value of this keyword</td>
       <td  align=center colspan="2">window object</td>
-      <td  colspan="2">Undefined</td>
+      <td  colspan="2" align=center>Undefined</td>
     </tr>
     <tr>
       <td>import.meta object</td>
       <td  align=center colspan="2">❌</td>
-      <td  colspan="2">✔</td>
+      <td  colspan="2" align=center>✔</td>
     </tr>
     <tr>
       <td>Execution Time</td>
       <td  align=center colspan="2">sync</td>
-      <td  colspan="2">deferred & async</td>
+      <td  colspan="2" align=center>deferred & async</td>
     </tr>
   </table>
 </div>
