@@ -40,6 +40,11 @@
       <td  align=center colspan="2">js.</td>
       <td  colspan="2" align=center> js. أو mjs. أو mjs.js.</td>
     </tr>
+     <tr>
+      <td>Type Attribute</td>
+      <td  align=center colspan="2">application/javascript</td>
+      <td  colspan="2" align=center>module</td>
+    </tr>
     <tr>
       <td>Default Mode</td>
       <td  align=center colspan="2">Sloppy mode</td>
@@ -128,8 +133,8 @@
   
   
   
-###  3. ال Attributes 
-  
+###  3. ال Type Attribute 
+  - ال regular script بيكون ليه `type="application/javascript"` بشكل افتراضي (by default) فمفيش داعي أكتبه
 - ال module script بيكون ليه 2 attributes و هما:
   - ال  `"type="module` : ودي بستخدمها عشان أعرف المتصفح أني هنشأ ملف js نوعه module 
   - و ال `nomodule` : بستخدمها عشان ال compatibility
