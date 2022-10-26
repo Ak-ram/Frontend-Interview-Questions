@@ -71,10 +71,10 @@
   
  تعالي نشرح الجدول دا واحده واحده.
   
-  ---
+
 
   
-###  1. نوع ال protocol الي بيشتغل عليه ال script 
+###  1. ال protocol 
   
  <table dir=ltr align=center>
     <tr>
@@ -96,6 +96,30 @@
 
 ---
 
+  ### 2. ال Extension
+     
+    
+ <table dir=ltr align=center>
+    <tr>
+      <th align=center>#</th>
+      <th  colspan="2" align=center>Regular script</th>
+      <th  colspan="2" align=center>Module script</th>
+    </tr>
+    <tr>
+   <tr>
+      <td>Extension</td>
+      <td  align=center colspan="2">js.</td>
+      <td  colspan="2" align=center> js. أو mjs. أو mjs.js.</td>
+    </tr>
+ </table>
+  
+  لما تيجي تعمل regular script فال extenstion بيكون .js زي كدا `regularScript.js` لكن لما تنشأ module فال extension بيكون كدا `moduleScript.js` أو `moduleScript.jsx` أو `moduleScript.mjs.js` 
+  
+  
+  
+  ---
+  
+  
   
 ###  2. ال attributes بتاع كل script
   
