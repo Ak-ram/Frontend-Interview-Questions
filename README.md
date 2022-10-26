@@ -29,6 +29,23 @@
     هل ال Arrow Function مجرد Syntactic sugar ؟
 </a></td>
   </tr>
+    
+  <tr>
+    <td align=center>1</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/if...else%20hell%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%AA%D8%AC%D9%86%D8%A8%20%D8%A7%D9%84.md"> ازاي نتجنب ال if/else hell</a></td>
+  </tr>
+    
+    
+  <tr>
+    <td align=center>1</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/JS%20Modularity.md"> JS Modularity</a></td>
+  </tr>
+    
+    
+  <tr>
+    <td align=center>1</td>
+    <td colspan="3"><a href="[d](https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84%20JS%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%A7%D9%84.md)"> ازاي ال JS بتشتغل</a></td>
+  </tr>
 <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
     <th colspan="3">CSS</th>
