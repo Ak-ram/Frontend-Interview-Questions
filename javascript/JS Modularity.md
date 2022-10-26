@@ -41,6 +41,31 @@
       <td  align=center colspan="2">js.</td>
       <td  colspan="2"> js. أو mjs. أو mjs.js.</td>
     </tr>
+    <tr>
+      <td>Default Mode</td>
+      <td  align=center colspan="2">Sloppy mode</td>
+      <td  colspan="2">Strict mode</td>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td  align=center colspan="2">Global Scope</td>
+      <td  colspan="2">Module-Level Scope</td>
+    </tr>
+    <tr>
+      <td>value of this keyword</td>
+      <td  align=center colspan="2">window object</td>
+      <td  colspan="2">Undefined</td>
+    </tr>
+    <tr>
+      <td>import.meta object</td>
+      <td  align=center colspan="2">❌</td>
+      <td  colspan="2">✔</td>
+    </tr>
+    <tr>
+      <td>Execution Time</td>
+      <td  align=center colspan="2">sync</td>
+      <td  colspan="2">deferred & async</td>
+    </tr>
   </table>
 </div>
   
