@@ -24,20 +24,20 @@
   
   
   
-<table>
-  <tr>
-    <th>#</th>
-    <th  colspan="2">Regular script</th>
-    <th  colspan="2">Module script</th>
-  </tr>
-     
-  <tr>
-    <td>Protocol</td>
-    <td  colspan="2">local file & Http & Https</td>
-    <td  colspan="2">Https & live-server</td>
-  </tr>
-
-</table>
+<div align=center dir=rtl>
+  <table>
+    <tr>
+      <th>#</th>
+      <th  colspan="2">Regular script</th>
+      <th  colspan="2">Module script</th>
+    </tr>
+    <tr>
+      <td>Protocol</td>
+      <td  colspan="2">local file & Http & Https</td>
+      <td  colspan="2">Https & live-server</td>
+    </tr>
+  </table>
+</div>
   
   
   
