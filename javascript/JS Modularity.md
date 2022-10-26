@@ -135,9 +135,7 @@
   
 ###  3. ال Type Attribute 
   - ال regular script بيكون ليه `type="application/javascript"` بشكل افتراضي (by default) فمفيش داعي أكتبه
-- ال module script بيكون ليه 2 attributes و هما:
-  - ال  `"type="module` : ودي بستخدمها عشان أعرف المتصفح أني هنشأ ملف js نوعه module 
-  - و ال `nomodule` : بستخدمها عشان ال compatibility
+- ال module script : بستخدم معاه `type="module"` و دا عشان أعرف المتصقح أن ملف ال js نوعه module
   
 أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
 ```html
