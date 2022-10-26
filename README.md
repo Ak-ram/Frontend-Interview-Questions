@@ -16,46 +16,35 @@
 
   <tr>
     <th>#</th>
-    <th  colspan="2">السؤال</th>
+    <th colspan="2">السؤال</th>
   </tr>
-<!---------------------------------------------------------- JS Questions ------------------------------------------------------>
+  <!---------------------------------------------------------- JS Questions ------------------------------------------------------>
   <tr>
     <th colspan="3">Javascript</th>
   </tr>
-  // 1.
+
   <tr>
     <td align=center>1</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/syntactic%20sugar%20%D9%85%D8%AC%D8%B1%D8%AF%20Arrow%20function%20%D9%87%D9%84%20%D8%A7%D9%84.md">
-    هل ال Arrow Function مجرد Syntactic sugar ؟
-</a></td>
+        هل ال Arrow Function مجرد Syntactic sugar ؟
+      </a></td>
   </tr>
-   
-    
-    
-    
-     // 2. 
+
   <tr>
     <td align=center>2</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/if...else%20hell%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%AA%D8%AC%D9%86%D8%A8%20%D8%A7%D9%84.md"> ازاي نتجنب ال if/else hell</a></td>
   </tr>
-    
-    
-    
-      // 3.
+
   <tr>
     <td align=center>3</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/JS%20Modularity.md"> JS Modularity</a></td>
   </tr>
-    
-    
-    
-    
-    // 4.
+
   <tr>
     <td align=center>4</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84%20JS%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%A7%D9%84.md"> ازاي ال JS بتشتغل</a></td>
   </tr>
-<!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
+  <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
     <th colspan="3">CSS</th>
   </tr>
@@ -68,26 +57,24 @@
     <td align=center>6</td>
     <td colspan="2"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/css/width%20%7C%20min-width%20%7C%20height%20%7C%20min-height%20%7C%20flex-basis%20%D9%85%D8%A7%20%D9%87%D9%88%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86.md">الفرق بين ال width | min-width | height | min-height | flex-basis</a></td>
   </tr>
-    
+
   <!---------------------------------------------------------- SCSS Questions ------------------------------------------------------>
 
- <tr>
+  <tr>
     <th colspan="3">SCSS</th>
   </tr>
-  
+
   <tr>
-    <td  align=center>7</td>
+    <td align=center>7</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/Sass%20%D9%8A%D8%B9%D9%86%D9%8A%20%D8%A7%D9%8A.md">يعني اي SASS ؟</a></td>
   </tr>
-    
-   <tr>
-    <td  align=center>8</td>
+
+  <tr>
+    <td align=center>8</td>
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/scss/%D8%A8%D8%B4%D9%83%D9%84%20%D8%AA%D9%84%D9%82%D8%A7%D8%A6%D9%8A%20prefixes%20%D8%A7%D8%B2%D8%A7%D9%8A%20%D8%AA%D8%B6%D9%8A%D9%81%20%D8%A7%D9%84.md"> اضافة ال prefixes تلقائيا باستخدام ال SCSS</a></td>
-  </tr> 
-    
-    
-    
- <!---------------------------------------------------------- Leetcode Questions ------------------------------------------------------>
+  </tr>
+
+  <!---------------------------------------------------------- Leetcode Questions ------------------------------------------------------>
 
   <tr>
     <th colspan="3">Leetcode (JS)</th>
