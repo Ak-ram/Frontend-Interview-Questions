@@ -9,7 +9,8 @@
   
   زمان كانت ال scripts صغيرة و simple؛ بس مع الوقت بدأت ال scripts دي تبقي more complex و حجمها بقي كبير، عشان كدا كنا لازم نشوف طريقة ننظم بيها ال code بتاعنا بحيث يكون سهل القراءة و التعديل عليه فيما بعد و كانت الطريقة دي هي أننا بدل منخلي كل الكود في ملف js واحد بس، هنفصله في أكتر من ملف و دا الي بنسميه code splitting
 
-.......
+
+![1mb](https://user-images.githubusercontent.com/69124951/197946369-883f8201-4ccf-44d2-8865-b6bbde6353b2.png)
 
 
 كل file من ال files الصغيرة دي بنسميه module و بيكون جواه كود معين و عشان نعمل ال code splitting دا كنا بنستخدم حاجه اسمها module system زي AMD, UMD, CommonJS 
