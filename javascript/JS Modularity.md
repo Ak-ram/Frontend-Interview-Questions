@@ -165,8 +165,8 @@
 
 ###  4. ال Mode
 
-- ال regular script بيكون sloppy mode (default mode) و تقدر برده تخليه strict
-- ال module script بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
+- ال regular script : بيكون sloppy mode (default mode) و تقدر برده تخليه strict
+- ال module script : بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
 
 
 ```html
