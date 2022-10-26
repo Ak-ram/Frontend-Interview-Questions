@@ -113,7 +113,7 @@
     </tr>
  </table>
   
-   - ال regular script :ال extenstion بتاعه بيكون `.js` زي كدا 
+   - ال regular script : ال extenstion بتاعه بيكون `.js` زي كدا 
    - ال module script : ال extension بتاعه بيكون `.js` أو `.mjs` او `.mjs.js` 
  
   
