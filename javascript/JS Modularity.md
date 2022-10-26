@@ -128,7 +128,7 @@
   
   
   
-###  2. ال attributes بتاع كل script
+###  3. ال attributes بتاع كل script
   
 - ال module script بيكون ليه 2 attributes و هما:
   - ال  `"type="module` : ودي بستخدمها عشان أعرف المتصفح أني هنشأ ملف js نوعه module 
@@ -163,22 +163,17 @@
 
 ---
 
+###  4. ال Mode
+
+- ال regular script بيكون sloppy mode (default mode) و تقدر برده تخليه strict
+- ال module script بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
 
 
-٤- ال mode 
-ال regular script بيكون sloppy mode و تقدر برده تخليه strict بس ال default هو sloppy
-
-ال module script بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
-
-
-html
-
-<script type="module">
-
-a= 5; // Error
-
-</script>
-
+```html
+  <script type="module">
+    a= 5; // Error
+  </script>
+```
   
   
   
