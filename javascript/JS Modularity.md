@@ -42,7 +42,7 @@
     </tr>
      <tr>
       <td>Type Attribute</td>
-      <td  align=center colspan="2">application/javascript</td>
+      <td  align=center colspan="2">text/javascript</td>
       <td  colspan="2" align=center>module</td>
     </tr>
     <tr>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>Type Attribute</td>
-      <td  align=center colspan="2">application/javascript</td>
+      <td  align=center colspan="2">text/javascript</td>
       <td  colspan="2" align=center>module</td>
     </tr>
  </table>
@@ -153,7 +153,7 @@
   
   
   
-  - ال regular script بيكون ليه `type="application/javascript"` بشكل افتراضي (by default) فمفيش داعي أكتبه
+  - ال regular script بيكون ليه `type="text/javascript"` بشكل افتراضي (by default) فمفيش داعي أكتبه
 - ال module script : بستخدم معاه `type="module"` و دا عشان أعرف المتصقح أن ملف ال js نوعه module
   
 أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
