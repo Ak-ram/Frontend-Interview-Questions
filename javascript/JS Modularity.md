@@ -23,10 +23,10 @@
 إذا في فرق بين ال module script و ال regular script و الفروقات دي هي
   
   
-<div dir=rtl align=center>
+<div align=center>
   <table>
     <tr>
-      <th align=right>#</th>
+      <th align=left>#</th>
       <th  colspan="2" align=center>Regular script</th>
       <th  colspan="2" align=center>Module script</th>
     </tr>
