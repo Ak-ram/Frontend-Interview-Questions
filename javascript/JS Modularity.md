@@ -133,7 +133,26 @@
   
   
   
-###  3. ال Type Attribute 
+###  3. ال Type Attribute
+  
+  
+   <table dir=ltr align=center>
+    <tr>
+      <th align=center>#</th>
+      <th  colspan="2" align=center>Regular script</th>
+      <th  colspan="2" align=center>Module script</th>
+    </tr>
+    <tr>
+      <td>Type Attribute</td>
+      <td  align=center colspan="2">application/javascript</td>
+      <td  colspan="2" align=center>module</td>
+    </tr>
+ </table>
+  
+  
+  
+  
+  
   - ال regular script بيكون ليه `type="application/javascript"` بشكل افتراضي (by default) فمفيش داعي أكتبه
 - ال module script : بستخدم معاه `type="module"` و دا عشان أعرف المتصقح أن ملف ال js نوعه module
   
