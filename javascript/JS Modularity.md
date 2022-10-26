@@ -74,7 +74,7 @@
 
 
   
-###  1. ال protocol 
+###  1. ال Protocol 
   
  <table dir=ltr align=center>
     <tr>
@@ -113,9 +113,16 @@
     </tr>
  </table>
   
-  لما تيجي تعمل regular script فال extenstion بيكون .js زي كدا `regularScript.js` لكن لما تنشأ module فال extension بيكون كدا `moduleScript.js` أو `moduleScript.jsx` أو `moduleScript.mjs.js` 
+   - ال regular script :ال extenstion بتاعه بيكون `.js` زي كدا 
+   - ال module script : ال extension بتاعه بيكون `.js` أو `.mjs` او `.mjs.js` 
+ 
   
+  ```ruby
+  regularScript.js
+  moduleScript.js OR moduleScript.jsx OR moduleScript.mjs.js
+  ```
   
+ 
   
   ---
   
