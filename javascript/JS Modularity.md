@@ -38,8 +38,8 @@
     </tr>
     <tr>
       <td>Extension</td>
-      <td  colspan="2">.js</td>
-      <td  colspan="2">.js أو .mjs أو .mjs.js</td>
+      <td  align=center colspan="2">js.</td>
+      <td  colspan="2"> js. أو mjs. أو mjs.js.</td>
     </tr>
   </table>
 </div>
