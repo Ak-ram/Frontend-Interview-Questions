@@ -68,7 +68,72 @@
   </table>
 </div>
   
+  ---
+  تعالي نشرح الجدول دا واحده واحده.
+
+ <table dir=ltr align=center>
+    <tr>
+      <th align=left>#</th>
+      <th  colspan="2" align=center>Regular script</th>
+      <th  colspan="2" align=center>Module script</th>
+    </tr>
+    <tr>
+      <td>Protocol</td>
+      <td  colspan="2" align=center>local file & Http & Https</td>
+      <td  colspan="2" align=center>Https & live-server</td>
+    </tr>
+ </table>
   
+  
+  
+- ال protocol الي كل script بيشتغل عليه: 
+  > ال regular script : بيشتغل علي ال local file و ال https وال http
+  > ال module script : بيشتغل علي ال Https و ال live server بس
+....................
+٢- ال attribute
+ال module script بيكون ليه ٢ attributes و هما ال type="module" و ال nomodule 
+أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
+html
+
+<script src="..." type="module"></script>
+
+
+في طبعا متصفحات مش بتفهم أب type=module [يعني مش بتدعم ال js modules] و بالتالي فهي هتتجاهل الملف كله ودا لان ال type بتاع ال script كان unknown بالنسبة للمتصفح، فعشان نحل المشكلة دي بنستخدم خاصية ثانية وهي nomodule، لما المتصفح الي مش بتدعم ال js module يقرأ الخاصية دي فهينفذ الي جوا ال script عادي 
+......
+
+
+مثال: 
+......
+
+
+
+
+المثال دا هيتنفذ ازاي ؟ 
+لو كان المتصفح بيدعم ال js modules فكدا ال script الي فيه nomodule هيتم تجاهله و هيتم تنفيذ الscript الي ليه type="module" 
+
+و لو كان المتصفح مش بيدعم ال js modules فكدا ال script الي فيه type="module" مش هيتنفذ و هيتم تجاهله زي ما قلنا و هيتم تنفيذ الي script الي فيه nomodule attribute
+
+جدوووووووولللللل
+
+
+..........
+
+
+
+٤- ال mode 
+ال regular script بيكون sloppy mode و تقدر برده تخليه strict بس ال default هو sloppy
+
+ال module script بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
+
+
+html
+
+<script type="module">
+
+a= 5; // Error
+
+</script>
+
   
   
   
