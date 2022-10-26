@@ -143,8 +143,7 @@
   
   
   
-```javascript
-  
+```html
   <script src="..." type="module">
     // I will execute only if the browser support js modules
   </script>
@@ -152,7 +151,6 @@
   <script src="..." type="module">
     // I will execute only if the browser doesn't support modules
   </script>
-  
 ```  
   
   
