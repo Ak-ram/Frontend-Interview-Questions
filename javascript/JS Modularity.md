@@ -91,17 +91,18 @@
   
   
   
-  - ال regular script : بيشتغل علي ال local file protocol (FTP) و ال HTTPS Protocol وال HTTP Protocol
+  - ال regular script : بيشتغل علي ال local file Protocol و ال HTTPS Protocol وال HTTP Protocol
   - ال module script : بيشتغل علي ال Https Protocol و ال live server بس
 
-  
 ---
 
   
-  ....................
+###  2. ال attributes بتاع كل script
   
-٢- ال attribute
-ال module script بيكون ليه ٢ attributes و هما ال type="module" و ال nomodule 
+- ال module script بيكون ليه 2 attributes و هما:
+  - ال  `"type="module`
+  - و ال `nomodule`
+  
 أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
 html
 
