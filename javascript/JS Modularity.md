@@ -131,16 +131,32 @@
 ###  2. ال attributes بتاع كل script
   
 - ال module script بيكون ليه 2 attributes و هما:
-  - ال  `"type="module`
-  - و ال `nomodule`
+  - ال  `"type="module` : ودي بستخدمها عشان أعرف المتصفح أني هنشأ ملف js نوعه module 
+  - و ال `nomodule` : بستخدمها عشان ال compatibility
   
 أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
 ```html
   <script src="..." type="module"></script>
 ```
-في طبعا متصفحات مش بتفهم ال `type=module` [ يعني مش بتدعم ال js modules ] و بالتالي فهي هتتجاهل الملف كله ودا لان ال type بتاع ال script كدا unknown بالنسبة للمتصفح، فعشان نحل المشكلة دي بنستخدم خاصية ثانية وهي `nomodule`، لما المتصفح الي مش بيدعم ال js module يقرأ الخاصية دي فهينفذ الي جوا ال script عادي 
-......
-
+في طبعا متصفحات مش بتفهم ال `type=module` [ يعني مش بتدعم ال js modules ] و بالتالي فهي هتتجاهل الملف كله ودا لان ال type بتاعه يعتبر unknown بالنسبة للمتصفح،
+ فالي بنعمله أننا بنعمل script ثاني و نضيفله ال `nomodule` و نحط جواه كود يتنفذ في حالة أن المتصفح مش بيدعم ال modules
+  
+  
+  
+```javascript
+  
+  <script src="..." type="module">
+    // I will execute only if the browser support js modules
+  </script>
+  
+  <script src="..." type="module">
+    // I will execute only if the browser doesn't support modules
+  </script>
+  
+```  
+  
+  
+  
 
 مثال: 
 ......
