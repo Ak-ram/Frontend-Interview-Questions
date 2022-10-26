@@ -128,7 +128,7 @@
   
   
   
-###  3. ال attributes بتاع كل script
+###  3. ال Attributes 
   
 - ال module script بيكون ليه 2 attributes و هما:
   - ال  `"type="module` : ودي بستخدمها عشان أعرف المتصفح أني هنشأ ملف js نوعه module 
@@ -164,6 +164,23 @@
 ---
 
 ###  4. ال Mode
+
+  
+  
+   <table dir=ltr align=center>
+    <tr>
+      <th align=center>#</th>
+      <th  colspan="2" align=center>Regular script</th>
+      <th  colspan="2" align=center>Module script</th>
+    </tr>
+    <tr>
+    <tr>
+      <td>Default Mode</td>
+      <td  align=center colspan="2">Sloppy mode</td>
+      <td  colspan="2" align=center>Strict mode</td>
+    </tr>
+ </table>
+  
 
 - ال regular script : بيكون sloppy mode (default mode) و تقدر برده تخليه strict
 - ال module script : بيكون دايما strict mode و بالتالي لو عملت مثلا assign ل undeclared variable هيدي error
