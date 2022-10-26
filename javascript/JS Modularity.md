@@ -68,12 +68,17 @@
   </table>
 </div>
   
+  
+ تعالي نشرح الجدول دا واحده واحده.
+  
   ---
-  تعالي نشرح الجدول دا واحده واحده.
 
+  
+###  1. نوع ال protocol الي بيشتغل عليه ال script 
+  
  <table dir=ltr align=center>
     <tr>
-      <th align=left>#</th>
+      <th align=center>#</th>
       <th  colspan="2" align=center>Regular script</th>
       <th  colspan="2" align=center>Module script</th>
     </tr>
@@ -86,10 +91,15 @@
   
   
   
-- ال protocol الي كل script بيشتغل عليه: 
-  > ال regular script : بيشتغل علي ال local file و ال https وال http
-  > ال module script : بيشتغل علي ال Https و ال live server بس
-....................
+  - ال regular script : بيشتغل علي ال local file protocol (FTP) و ال HTTPS Protocol وال HTTP Protocol
+  - ال module script : بيشتغل علي ال Https Protocol و ال live server بس
+
+  
+---
+
+  
+  ....................
+  
 ٢- ال attribute
 ال module script بيكون ليه ٢ attributes و هما ال type="module" و ال nomodule 
 أنا لما باجي اعمل module جديد فلازم أعرف المتصفح ان الملف دا عبارة عن module [مش regular script] و دا بيتم عن طريق اني بضيف type="module" زي كدا 
