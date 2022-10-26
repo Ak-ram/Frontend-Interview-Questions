@@ -19,6 +19,16 @@
     <th  colspan="2">السؤال</th>
 
   </tr>
+<!---------------------------------------------------------- JS Questions ------------------------------------------------------>
+  <tr>
+    <th colspan="3">Javascript</th>
+  </tr>
+  <tr>
+    <td align=center>1</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/syntactic%20sugar%20%D9%85%D8%AC%D8%B1%D8%AF%20Arrow%20function%20%D9%87%D9%84%20%D8%A7%D9%84.md">
+    هل ال Arrow Function مجرد Syntactic sugar ؟
+</a></td>
+  </tr>
 <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
     <th colspan="3">CSS</th>
