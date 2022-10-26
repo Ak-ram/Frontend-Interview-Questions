@@ -36,6 +36,11 @@
       <td  colspan="2">local file & Http & Https</td>
       <td  colspan="2">Https & live-server</td>
     </tr>
+    <tr>
+      <td>Extension</td>
+      <td  colspan="2">.js</td>
+      <td  colspan="2">.js أو .mjs أو .mjs.js</td>
+    </tr>
   </table>
 </div>
   
