@@ -145,32 +145,23 @@
   
 ```html
   <script src="..." type="module">
-    // I will execute only if the browser supports js modules
+    // I will execute only if the browser supports js modules 1️⃣ 
   </script>
   
-  <script src="..." type="module">
-    // I will execute only if the browser doesn't support modules
+  <script src="..." nomodule>
+    // I will execute only if the browser doesn't support modules 2️⃣
   </script>
 ```  
-  
-  
-  
-
-مثال: 
-......
-
-
+ 
 
 
 المثال دا هيتنفذ ازاي ؟ 
-لو كان المتصفح بيدعم ال js modules فكدا ال script الي فيه nomodule هيتم تجاهله و هيتم تنفيذ الscript الي ليه type="module" 
-
-و لو كان المتصفح مش بيدعم ال js modules فكدا ال script الي فيه type="module" مش هيتنفذ و هيتم تجاهله زي ما قلنا و هيتم تنفيذ الي script الي فيه nomodule attribute
-
-جدوووووووولللللل
+لو المتصفح بيدعم ال js modules فكدا ال script رقم 2️⃣ هيتم تجاهله و هيتم تنفيذ الscript رقم 1️⃣  
+و لو كان المتصفح مش بيدعم ال js modules فكدا ال script رقم 2️⃣ مش هيتنفذ و هيتم تجاهله و هيتم تنفيذ الي script رقم 1️⃣ 
 
 
-..........
+
+---
 
 
 
