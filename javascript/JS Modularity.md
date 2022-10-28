@@ -218,7 +218,11 @@
 
 ###  5. ال Scope
 
-  
-  
+  - ال Regular Script بيكون global scope بمعني ان لو عندي ملفين js مستدعيهم في ال Html بالشكل ده
+  ```html
+  <script src="regularScript1.js"/>
+  <script src="regularScript2.js"/>
+  ```
+  فال `regularScript2` يقدر يستخدم ال functions و ال variables و ال classes ال موجوده في `regularScript1`
   
   </details>
