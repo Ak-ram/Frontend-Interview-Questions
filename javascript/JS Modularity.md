@@ -237,12 +237,12 @@ alert(user); // Error
 ```
   هنا أدي error لأن ال user موجود جوا module scope... 
   
-  طب الحل اي ؟ ازاي نعمل sharing للمحتويات بتاع ال module دا بحيث نقدر نستخدمهم في ملفات js ثانية سواء كانت modules او regular script ؟
+  طب الحل اي ؟ ازاي نعمل sharing للمحتويات بتاع ال module دا بحيث نقدر نستخدمهم في modules ثانية ؟
   
   
   الحل هنا أننا هنستخدم special keywords أو special directives معمولين خصيصا عشان نقدر نتعامل مع ال modules و هما ال  `import` & `export` زي كدا :
  ```html
-  // index.html
+  <!-- index.html -->
   <script src="a.js" type="module"></script>
  ```
   
