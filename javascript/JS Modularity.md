@@ -218,7 +218,7 @@
 
 ###  5. ال Scope
 
-  - ال Regular Script بيكون global scope بمعني ان لو عندي ملفين js مستدعيهم في ال Html بالشكل ده
+- ال Regular Script بيكون global scope بمعني ان لو عندي ملفين js مستدعيهم في ال Html بالشكل ده
   ```html
   <script src="regularScript1.js"></script>
   <script src="regularScript2.js"></script>
@@ -226,7 +226,7 @@
   فال `regularScript2` يقدر يستخدم ال functions و ال variables و ال classes ال موجوده في `regularScript1`
   
   
-  - ال module script بيكون ليه scope خاص بيه اسمه `module-level scope` و بالتالي مش هتقدر ت acess علي ال functions و ال variables و ال classes الي جوا ال module دا بطريقة مباشرة زي ما عملنا مع ال regular script
+- ال module script بيكون ليه scope خاص بيه اسمه `module-level scope` و بالتالي مش هتقدر ت acess علي ال functions و ال variables و ال classes الي جوا ال module دا بطريقة مباشرة زي ما عملنا مع ال regular script
   
 ```javascript
 // in moduleScript.js file
