@@ -266,7 +266,7 @@ alert(user); // Error
 
 ###  6. ال this keyword
 - ال regular script : ال this بتشير الي ال window object
-  - ال module script : ال this بتكون undefined و دا لأن ال module زي ما قلنا قبل كدا بيكون strict mode
+- ال module script : ال this بتكون undefined و دا لأن ال module زي ما قلنا قبل كدا بيكون strict mode
   
 ```html
 <!--  in regular scripts  -->
