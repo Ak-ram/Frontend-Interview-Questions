@@ -12,7 +12,7 @@
   </summary>
 
 نقدر نعمل ال function دي بطريقتين هما: 
- - الطريقة الأولي باستخدام ال `if` statement و ال logical OR ( || ) operator (logical disjunction) بالشكل دا: 
+ - الطريقة الأولي باستخدام ال `if` و ال `||` بالشكل دا: 
 
 ```javascript
   
@@ -31,7 +31,7 @@
 };
 ```
   
-   - الطريقة الثانية باستخدام logical NOT ( ! ) operator (logical complement, negation) بالشكل دا: 
+   - الطريقة الثانية باستخدام `!` بالشكل دا: 
   
 ```javascript
   const isFalsey2 = (value) => !value;
