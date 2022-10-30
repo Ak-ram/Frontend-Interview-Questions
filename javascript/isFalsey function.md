@@ -11,6 +11,30 @@
     <h2>الاجابة</h2>
   </summary>
 
+نقدر نعمل ال function دي بطريقتين هما: 
+ - الطريقة الأولي باستخدام ال `if` statement و ال logical OR ( || ) operator (logical disjunction) بالشكل دا: 
 
+```javascript
+  
+  const isFalsey = (value) => {
+  if (
+    value === null ||
+    value === undefined ||
+    value === 0 ||
+    value === false ||
+    value === NaN ||
+    value === ""
+  ) {
+    return true;
+  }
+  return false;
+};
+```
+  
+   - الطريقة الثانية باستخدام logical NOT ( ! ) operator (logical complement, negation) بالشكل دا: 
+  
+```javascript
+  const isFalsey2 = (value) => !value;
+```
 </details>
 
