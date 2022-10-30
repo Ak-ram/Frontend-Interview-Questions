@@ -16,7 +16,7 @@
 
 ```javascript
   
-  const isFalsey = (value) => {
+  const isFalseyLongHand = (value) => {
   if (
     value === null ||
     value === undefined ||
@@ -34,7 +34,26 @@
    - الطريقة الثانية باستخدام `!` بالشكل دا: 
   
 ```javascript
-  const isFalsey2 = (value) => !value;
+  const isFalseyShortHand = (value) => !value;
 ```
+  
+  
+  
+Examples:
+  
+```javascript
+// Falsey values
+console.log(isFalseyLongHand("")); // true  
+console.log(isFalseyShortHand(null)) // true
+  
+// Non Falsey values
+console.log(isFalseyLongHand('string')); // false
+console.log(isFalseyShortHand({})) // false
+```
+  
+  
+  
+  
+  
 </details>
 
