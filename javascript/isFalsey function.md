@@ -46,7 +46,7 @@ Examples:
 console.log(isFalseyLongHand("")); // true  
 console.log(isFalseyShortHand(null)) // true
   
-// Non Falsey values
+// Truely values
 console.log(isFalseyLongHand('string')); // false
 console.log(isFalseyShortHand({})) // false
 ```
