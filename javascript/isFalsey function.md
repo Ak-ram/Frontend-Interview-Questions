@@ -15,7 +15,6 @@
  - الطريقة الأولي باستخدام ال `if` و ال `||` بالشكل دا: 
 
 ```javascript
-  
   const isFalseyLongHand = (value) => {
   if (
     value === null ||
