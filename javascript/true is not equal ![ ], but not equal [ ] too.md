@@ -2,6 +2,11 @@
 
 ال `[]` مش بساوي `true` و برده ال `[]!` مش بيساوي `true` اي السبب ؟
 
+```javascript
+true == []; // -> false
+true == ![]; // -> false
+```
+
 
 <details dir=rtl>
   <summary>
