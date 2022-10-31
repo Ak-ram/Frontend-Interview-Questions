@@ -40,7 +40,7 @@ true == ![]; // -> false
     true == []; // false
     true == ![]; // false
   
-  // js engine converts both sides to Numbers by using uniary operator (+) 
+  // js engine converts both sides to Numbers by using unary operator (+) 
     +true == +[];
     +true == + ![];
   
