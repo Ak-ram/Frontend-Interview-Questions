@@ -56,7 +56,7 @@ true == ![]; // -> false
  ```
   
   
- أسألة مشابهة:
+ أسئلة مشابهة:
 -  السؤال الأول: [هل ال [ ] == [ ]! في الجافاسكربت](https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%5B%20%5D%20is%20equal%20!%5B%20%5D.md)
 
 </details>
