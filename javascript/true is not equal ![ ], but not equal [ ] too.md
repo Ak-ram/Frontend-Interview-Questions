@@ -49,7 +49,11 @@ true == ![]; // -> false
     1 == 0; // result is: false
   ```
   
-  
+  نستنتج من الكلام الي فوق ان
+ ```javascript
+  false == []; // true
+  false == ![]; // true
+ ```
   
 </details>
 
