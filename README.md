@@ -51,7 +51,21 @@
     <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/tree/master/javascript">isFalsey Function</a></td>
   </tr>
   
-  
+ 
+ <tr>
+    <td align=center>6</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/%5B%20%5D%20is%20equal%20!%5B%20%5D.md">[ ] is equal ![ ]</a></td>
+  </tr>
+ 
+ <tr>
+    <td align=center>7</td>
+    <td colspan="3"><a href="https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/true%20is%20not%20equal%20!%5B%20%5D%2C%20but%20not%20equal%20%5B%20%5D%20too.md">true is not equal ![ ], but not equal [ ] too</a></td>
+  </tr>
+ 
+ 
+ 
+ 
+ 
   <!---------------------------------------------------------- CSS Questions ------------------------------------------------------>
   <tr>
     <th colspan="3">CSS</th>
