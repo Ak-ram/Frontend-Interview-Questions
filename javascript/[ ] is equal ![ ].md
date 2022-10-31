@@ -18,7 +18,9 @@
   ```
   
   بالنسبة لل left side فأنا عندي ال `+` و دا هيحولي ال empty array ل Number value و هي 0 و بالتالي +0 هتدي 0
-  بالنسبة لل left side فأنا عندي ال `!` و دا بيحولي ال empty array ل Boolean value و هي `true` و بالتالي true! هتدي false و 
+  بالنسبة لل left side فأنا عندي ال `!` و دا بيحولي ال empty array ل Boolean value و هي `true` و بالتالي true! هتدي false فهيكون عندي كدا `false+` الي هي ب `0`
+  
+  اذن الطرفين متساويين 
   
   
 </details>
