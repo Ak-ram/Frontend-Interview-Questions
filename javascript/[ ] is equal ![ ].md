@@ -40,7 +40,7 @@
 ```
   
   
- أسألة مشابهة:
+ أسئلة مشابهة:
 - السؤال الأول : [true is not equal ![ ], but not equal [ ] too](https://github.com/Ak-ram/Frontend-Interview-Questions/blob/master/javascript/true%20is%20not%20equal%20!%5B%20%5D%2C%20but%20not%20equal%20%5B%20%5D%20too.md)
   
 </details>
