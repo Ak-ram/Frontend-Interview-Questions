@@ -9,17 +9,24 @@
 ```javascript
   [] == ![]; // -> true
 ```
-السبب : 
-هو أن ال `(==) abstract equality` بتعمل مقارنة بين ال right side و ال left side و المقارنة دي بتم كلاتي:
-  - بتحول ال right side و ال left side لارقام بالشكل دا 
+  
+### الكود دا اتنفذ ازاي ؟؟
+ أنا عندي ال `(==) abstract equality` بتعمل مقارنة بين عددين, يعني ال left side و ال right side لازم يكونوا أعداد زي كدا
   
   ```javascript
-  +[] == +![]; // step 1
+  4 == 4  // true
+  3 == 9  // false
   ```
+بس ال js engine لما يجي يقارن ال two sides مع بعض هيلاقي انهم مش `Numbers` فبيعمل `Automatic conversion` ليهم بحيث يحولهم لأرقام.
+ 
+و عشان يحولهم لارقام بيستخدم ال `+` بالشكل دا: 
   
-  بالنسبة لل left side فأنا عندي ال `+` و دا هيحولي ال empty array ل Number value و هي 0 و بالتالي +0 هتدي 0
-  بالنسبة لل left side فأنا عندي ال `!` و دا بيحولي ال empty array ل Boolean value و هي `true` و بالتالي true! هتدي false فهيكون عندي كدا `false+` الي هي ب `0`
+```javascript
+  +[] == +![];
+```
+كدا أنا عندي ال left side بيساوي `[]+` و دا معناه ان ال `empty array` هيتحول ل `Number data type` اذا هيتحول ل **`0`**.
   
+بينما ال right side بيساوي `[]! +` و دا معناه ان ال `empty array` هيتحول الاول ل `Boolean data type` و الي هي `true` و بسبب وجود ال `!` فهيتحول ل `false` فهيكون عندي `false+` الي هي **`0`**
   اذن الطرفين متساويين 
   
   
