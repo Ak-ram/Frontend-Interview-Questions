@@ -3,7 +3,7 @@
 
 <details dir=rtl>
   <summary>
-    <h2>الاجابة</h2>
+    <h2>الاجابة 💡</h2>
   </summary>
   
 ```javascript
